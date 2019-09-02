@@ -1,8 +1,0 @@
-iWelcome to ZZO38COMPUTER Gopher Server!	
-iThis is still in the process of being recovered.	
-i		
-1Text files	textfile/	zzo38computer.org	70
-1Internet Quiz Engine	quizmenu/	zzo38computer.org	70
-0Fortune	fortune	zzo38computer.org	70
-1External links	extern	zzo38computer.org	70
-.

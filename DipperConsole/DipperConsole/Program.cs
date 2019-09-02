@@ -26,23 +26,24 @@ namespace DipperConsole
                     guri = GopherUri.Parse(address);
                 }
                 catch {
-                    Console.WriteLine(">>> ERROR!!! Wrong URL!");
+                    Console.WriteLine(">>> ERROR! Wrong URL!");
                     continue;
                 }
 
                 (int status, string response) = Downloader.OpenUrl(guri);
 
                 if (status == 0) {
+#if DEBUG 
                     string logFilename = $"log-{guri.Host}-{Environment.TickCount}.txt";
                     File.WriteAllText(logFilename, response);
-
+#endif
                     if (guri.ItemType == GopherItemType.SubmenuDir)
                         Parser.DrawMenu(response);
                     else
                         Console.WriteLine(response);
                 }
                 else {
-                    Console.WriteLine($">>> ERROR!!! #{status}");
+                    Console.WriteLine($">>> ERROR {status}!");
                     Console.WriteLine(response);
                 }
             }

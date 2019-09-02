@@ -36,7 +36,7 @@ namespace DipperConsole
                         Console.Write($"[DIR] ");
                         Console.ForegroundColor = stdForeColor;
                         Console.ForegroundColor = ConsoleColor.Cyan;
-                        Console.WriteLine($"{tabbed[2]}{tabbed[1]}");
+                        Console.WriteLine($"{tabbed[2]}/1{tabbed[1]}");
                         Console.ForegroundColor = stdForeColor;
                         break;
                     default:

@@ -1,0 +1,34 @@
+i@@@@@@@@@@@@@@@@		null.host	1
+i@@@@@@@@ @@@@@@@		null.host	1
+i@@@@@@@  @@@@@@@		null.host	1
+i@@@@@@  @@@@@@@@		null.host	1
+i@@@@@  @@@@ @@@@		null.host	1
+i@@@@  @@@@   @@@		null.host	1
+i@@@  @@@@     @@		null.host	1
+i@@  @@@@  @@   @		null.host	1
+i@   @@@  @@@@  @		null.host	1
+i@@   @@@@@@@   @		null.host	1
+i@@@   @@@@@   @@		null.host	1
+i@@@@   @@@   @@@		null.host	1
+i@@@@@   @   @@@@		null.host	1
+i@@@@@@     @@@@@ Project Gutenberg		null.host	1
+i@@@@@@@   @@@@@@ In Gopherspace		null.host	1
+i@@@@@@@@@@@@@@@@		null.host	1
+i 		null.host	1
+i		null.host	1
+i 		null.host	1
+7Search Project Gutenberg	/cgi-bin/pg-search	dante.pglaf.org	70
+1Our Most Popular Books	/cgi-bin/pg-popular	dante.pglaf.org	70
+1Our Latest Releases	/cgi-bin/pg-latest	dante.pglaf.org	70
+1Random Books	/cgi-bin/pg-random	dante.pglaf.org	70
+i		null.host	1
+i 		null.host	1
+i______________________________________________________________________		null.host	1
+i(c) 2003-2012 Project Gutenberg Literary Archive Foundation		null.host	1
+iAll Rights Reserved. Gopher frontend written by Nathaniel Leveck 2017		null.host	1
+0Source License	/license	dante.pglaf.org	70
+0Sourcecode	/cgi-bin/sourcecode	dante.pglaf.org	70
+i 		null.host	1
+i______________________________________________________________________		null.host	1
+i                   Gophered by Gophernicus/1.6 on Ubuntu/18.04 x86_64		null.host	1
+.
