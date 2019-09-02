@@ -36,11 +36,10 @@ namespace DipperConsole
                     string logFilename = $"log-{guri.Host}-{Environment.TickCount}.txt";
                     File.WriteAllText(logFilename, response);
 
-                    string text =
-                        (guri.ItemType == GopherItemType.SubmenuDir) ?
-                            Parser.BuildMenu(response) :
-                            response;
-                    Console.WriteLine(text);
+                    if (guri.ItemType == GopherItemType.SubmenuDir)
+                        Parser.DrawMenu(response);
+                    else
+                        Console.WriteLine(response);
                 }
                 else {
                     Console.WriteLine($">>> ERROR!!! #{status}");

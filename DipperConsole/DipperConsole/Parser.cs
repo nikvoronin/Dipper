@@ -8,10 +8,8 @@ namespace DipperConsole
 {
     class Parser
     {
-        public static string BuildMenu(string raw)
+        public static void DrawMenu(string raw)
         {
-            StringBuilder b = new StringBuilder();
-
             string[] lines = raw.Split('\n');
             foreach(var line in lines) {
                 if (line.Length == 0 || (line.Length == 1 && line[0] == '.'))
@@ -22,20 +20,25 @@ namespace DipperConsole
                 string[] tabbed = line.Split('\t');
                 string textLine = tabbed[0].Substring(1);
 
+                var stdForeColor = Console.ForegroundColor;
                 switch (t) {
                     case '0':
-                        b.Append($"[DOC] {textLine}\t{tabbed[2]}{tabbed[1]}\n");
+                        Console.Write($"[DOC] {textLine}\t");
+                        Console.ForegroundColor = ConsoleColor.Cyan;
+                        Console.WriteLine($"{tabbed[2]}{tabbed[1]}");
+                        Console.ForegroundColor = stdForeColor;
                         break;
                     case '1':
-                        b.Append($"[DIR] {textLine}\t{tabbed[2]}{tabbed[1]}\n");
+                        Console.Write($"[DIR] {textLine}\t");
+                        Console.ForegroundColor = ConsoleColor.Cyan;
+                        Console.WriteLine($"{tabbed[2]}{tabbed[1]}");
+                        Console.ForegroundColor = stdForeColor;
                         break;
                     default:
-                        b.Append($"      {textLine}\n");
+                        Console.WriteLine($"      {textLine}");
                         break;
                 }
             }
-
-            return b.ToString();
         }
     }
 }
