@@ -27,20 +27,28 @@ namespace DipperConsole
         public static GopherUri Parse(string raw)
         {
             GopherUri guri = new GopherUri();
-            guri.uri = new Uri(raw);
+            var uri = new Uri(raw);
+            guri.uri = uri;
 
-            if (guri.uri.Segments.Length < 2 && guri.uri.Segments[1].Length <= 2) {
-                guri.Path = guri.uri.AbsolutePath;
+            if (guri.uri.Segments.Length < 2) {
+                guri.Path = uri.AbsolutePath;
                 guri.ItemType = GopherItemType.SubmenuDir;
             }
             else {
-                int gtype = guri.uri.Segments[1][0];
+                int gtype = uri.Segments[1][0];
                 if (Enum.IsDefined(typeof(GopherItemType), gtype)) {
                     guri.ItemType = (GopherItemType)gtype;
-                    guri.Path = "/" + string.Join("", guri.uri.Segments, 2, guri.uri.Segments.Length - 2);
+
+                    string pathBody = string.Join("", guri.uri.Segments, 2, guri.uri.Segments.Length - 2);
+                    if (uri.Segments[1].Length > 2)
+                        guri.Path = $"/{uri.Segments[1].Substring(1)}/{pathBody}";
+                    else
+                        guri.Path = $"/{pathBody}";
                 }
-                else
+                else {
+                    guri.Path = uri.AbsolutePath;
                     guri.ItemType = GopherItemType.SubmenuDir;
+                }
             }
 
             return guri;

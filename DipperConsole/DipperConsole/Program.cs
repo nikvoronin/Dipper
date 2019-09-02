@@ -16,14 +16,14 @@ namespace DipperConsole
             bool run = true;
             while(run) {
                 Console.Write("> ");
-                string url = Console.ReadLine();
-                if (string.IsNullOrWhiteSpace(url))
+                string address = Console.ReadLine();
+                if (string.IsNullOrWhiteSpace(address))
                     break;
 
                 GopherUri guri;
 
                 try {
-                    guri = GopherUri.Parse(url);
+                    guri = GopherUri.Parse(address);
                 }
                 catch {
                     Console.WriteLine(">>> ERROR!!! Wrong URL!");
