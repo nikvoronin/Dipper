@@ -23,13 +23,18 @@ namespace DipperConsole
                 var stdForeColor = Console.ForegroundColor;
                 switch (t) {
                     case '0':
-                        Console.Write($"[DOC] {textLine}\t");
+                        Console.ForegroundColor = ConsoleColor.DarkGray;
+                        Console.Write($"[DOC] ");
+                        Console.ForegroundColor = stdForeColor;
+                        Console.Write($"{textLine}\t");
                         Console.ForegroundColor = ConsoleColor.Cyan;
-                        Console.WriteLine($"{tabbed[2]}{tabbed[1]}");
+                        Console.WriteLine($"{tabbed[2]}/0{tabbed[1]}");
                         Console.ForegroundColor = stdForeColor;
                         break;
                     case '1':
-                        Console.Write($"[DIR] {textLine}\t");
+                        Console.ForegroundColor = ConsoleColor.DarkGray;
+                        Console.Write($"[DIR] ");
+                        Console.ForegroundColor = stdForeColor;
                         Console.ForegroundColor = ConsoleColor.Cyan;
                         Console.WriteLine($"{tabbed[2]}{tabbed[1]}");
                         Console.ForegroundColor = stdForeColor;
