@@ -38,8 +38,8 @@ namespace DipperConsole
                     if (!request.Contains("\n"))
                         request += "\n";
 
-                    byte[] binPost = Encoding.ASCII.GetBytes(request);
-                    stream.Write(binPost, 0, binPost.Length);
+                    byte[] requestBytes = Encoding.ASCII.GetBytes(request);
+                    stream.Write(requestBytes, 0, requestBytes.Length);
                 }
                 catch (Exception ex) {
                     response = ex.Message;

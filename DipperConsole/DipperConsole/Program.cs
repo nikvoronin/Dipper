@@ -11,7 +11,7 @@ namespace DipperConsole
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Dipper. Sharp# gopher browser.");
+            Console.WriteLine("Dipper. The sharp# Gopher browser.");
 
             bool run = true;
             while(run) {
@@ -38,7 +38,7 @@ namespace DipperConsole
 
                     string text =
                         (guri.ItemType == GopherItemType.SubmenuDir) ?
-                            Parser.Clarify(response) :
+                            Parser.BuildMenu(response) :
                             response;
                     Console.WriteLine(text);
                 }

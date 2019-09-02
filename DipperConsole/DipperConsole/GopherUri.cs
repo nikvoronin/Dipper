@@ -5,6 +5,7 @@ namespace DipperConsole
 {
     class GopherUri
     {
+        const string GopherScheme = "gopher://";
         private Uri uri;
         public string Host
         {
@@ -26,6 +27,9 @@ namespace DipperConsole
 
         public static GopherUri Parse(string raw)
         {
+            if (!raw.StartsWith(GopherScheme))
+                raw = GopherScheme + raw;
+
             GopherUri guri = new GopherUri();
             var uri = new Uri(raw);
             guri.uri = uri;

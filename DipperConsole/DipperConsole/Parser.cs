@@ -8,7 +8,7 @@ namespace DipperConsole
 {
     class Parser
     {
-        public static string Clarify(string raw)
+        public static string BuildMenu(string raw)
         {
             StringBuilder b = new StringBuilder();
 
@@ -24,10 +24,10 @@ namespace DipperConsole
 
                 switch (t) {
                     case '0':
-                        b.Append($"[DOC] {textLine}\n");
+                        b.Append($"[DOC] {textLine}\t{tabbed[2]}{tabbed[1]}\n");
                         break;
                     case '1':
-                        b.Append($"[DIR] {textLine}\n");
+                        b.Append($"[DIR] {textLine}\t{tabbed[2]}{tabbed[1]}\n");
                         break;
                     default:
                         b.Append($"      {textLine}\n");
