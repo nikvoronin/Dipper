@@ -1,0 +1,14 @@
+iWelcome to the gopher server at port70.net.	fake	(NULL)	0
+iContact: mnagy@port70.net	fake	(NULL)	0
+i	fake	(NULL)	0
+iProjects:	fake	(NULL)	0
+1mgod gopher server	mgod	port70.net	70
+h[HTTP] FRTPLOT: Free Real-time Data Plotter	URL:http://frtplot.port70.net	port70.net	70
+h[HTTP] Animator - Simple 2D Vector Graphics Interpreter	URL:http://repo.hu/projects/animator	port70.net	70
+h[HTTP] Plumb - connect multiple programs with lots of pipes	URL:http://repo.hu/projects/plumb	port70.net	70
+H[HTTP] cchan - "channel" construct for inter-thread communication in C programs	URL:http://repo.hu/projects/cchan	port70.net	70
+h[HTTP] Stutter (LISP interpreter)	URL:http://hactar.port70.net/stutter	port70.net	70
+i	fake	(NULL)	0
+1NECRON card game	necron	port70.net	70
+1Gopherchan!	chan	port70.net	70
+i	fake	(NULL)	0

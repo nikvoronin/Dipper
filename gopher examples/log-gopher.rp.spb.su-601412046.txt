@@ -1,0 +1,30 @@
+CYRILLIC IN GOPHER
+
+As we have no way to specify encoding of text files in gopher,
+and most clients do not support UTF-8 in menus (and treat any
+8-bit encoding as ISO-8859-1), I propose the
+following standards:
+
+1) Only UTF-8 and KOI8 should be accepted as valid cyrillic
+encodings in Gopherspace. Legacy 8-bit cyrillic text should be
+interpreted as KOI8, while 2-byte encoded text should be UTF-8
+and the latter should be preferred.
+
+2) However, client may request document in specified charset,
+if server supports that. E.g. server can convert encodings on
+the fly based on some query string parameter like "?koi8-r".
+Such documents should be presented as different links in gopher
+menu. Client cannot and should not guess if server can do any
+encoding conversions.
+[NOTE: however, we should test if gopher+ clients can do that]
+
+3) We should avoid non-ascii in gopher menus, so only letters
+A a B C c E e H (I i) K k M (m) (n) O o P p T (u) X x (Y) y 
+must be used for cyrillic wherever possible, otherwise translit 
+should be used. Too many clients now do not understand non-ASCII
+in menus. However, we should start working on improving clients
+to allow using UTF-8 in menus. Support for legacy 8-bit
+encodings is not really needed.
+
+
+.

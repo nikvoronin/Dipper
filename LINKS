@@ -1,0 +1,37 @@
+Portal and Proxy
+gopher://gopher.floodgap.com
+gopher://gopher.floodgap.com/1/world
+
+Wikipedia
+gopher://gopherpedia.com/1
+
+Mgod server
+gopher://port70.net/1mgod
+
+ZZO38COMPUTER Gopher Server
+gopher://zzo38computer.org
+
+geomyidae server
+gopher://gopher.r-36.net/1/scm/geomyidae
+
+gopher://gopher.quux.org/
+
+Gopher+
+gopher://gopher.floodgap.com/gopher/tech/gopherplus.txt
+
+
+RUSSIAN
+=======
+gopher://gopher.ankylym.ru
+gopher://gopher.rp.spb.su/client.txt
+gopher://gopher.rp.spb.su/cyrillic.txt
+
+SOURCES
+=======
+https://github.com/mischief/godwulf/blob/master/godwulf.go
+
+https://habr.com/ru/post/238805/
+https://github.com/PastorGL/Gopher.js/blob/master/Gopher.js
+
+https://ru.wikipedia.org/wiki/Gopher
+https://en.wikipedia.org/wiki/Gopher_(protocol)

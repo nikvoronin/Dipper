@@ -1,0 +1,34 @@
+i	Err	gopher.r-36.net	70
+i	Err	gopher.r-36.net	70
+i    WELCOME TO R-36.NET	Err	gopher.r-36.net	70
+i	Err	gopher.r-36.net	70
+iWhat you can find here:	Err	gopher.r-36.net	70
+1My projects	/scm	gopher.r-36.net	70
+i	Err	gopher.r-36.net	70
+iI am involved in:	Err	gopher.r-36.net	70
+1bitreich.org project		bitreich.org	70
+i	Err	gopher.r-36.net	70
+iWhere to go from here:	Err	gopher.r-36.net	70
+1The Gopher Project		gopherproject.org	70
+7Search on Gopherspace	/v2/vs	gopher.floodgap.com	70
+i	Err	gopher.r-36.net	70
+iWhat is R-36.net?	Err	gopher.r-36.net	70
+hSee the Wikipedia article.	URL:https://en.wikipedia.org/wiki/R-36_(missile)	gopher.r-36.net	70
+i	Err	gopher.r-36.net	70
+iWho am I?	Err	gopher.r-36.net	70
+i	Err	gopher.r-36.net	70
+i  Christoph Lohmann	Err	gopher.r-36.net	70
+i  Feldstra??e 7	Err	gopher.r-36.net	70
+i  09212 Limbach-Oberfrohna	Err	gopher.r-36.net	70
+i	Err	gopher.r-36.net	70
+i  E-Mail:     20h (at) r-36 (dot) net	Err	gopher.r-36.net	70
+i  XMPP:       32d (at) jabber (dot) ccc (dot) de	Err	gopher.r-36.net	70
+i  IRC:        __20h__	Err	gopher.r-36.net	70
+i	Err	gopher.r-36.net	70
+0My GPG key in ASCII	/about/20h.asc	gopher.r-36.net	70
+9My GPG key in Binary	/about/20h.gpg	gopher.r-36.net	70
+IMy contact details as QR Code	/s/qrcode.png	gopher.r-36.net	70
+i	Err	gopher.r-36.net	70
+1robots.txt test path	/nothere	gopher.r-36.net	70
+i	Err	gopher.r-36.net	70
+.

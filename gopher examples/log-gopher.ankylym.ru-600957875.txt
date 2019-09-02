@@ -1,0 +1,32 @@
+iInternet Underground		error.host	1
+i 		error.host	1
+iThis gopher space is dedicated to forgotten non-commercial		error.host	1
+iInternet services, such as Gopher, Archie, WAIS, services		error.host	1
+iaccessed via telnet etc., along some underground activities.		error.host	1
+i 		error.host	1
+iHere is some information about Gopher		error.host	1
+0What is Gopher (from the Floodgap.com site)	/gopher/welcome	gopher.floodgap.com	70
+0Updated Gopher FAQ (from viste-family.net site)	/gopher-faq/gopher-faq-2009-02-07.txt	gopher.viste-family.net	70
+0About this gopher	/about.txt	gopher.rp.spb.su	70
+1Search the gopherspace	/search	gopher.rp.spb.su	70
+0NEW!!! Gopher Guestbook (WARNING: port 27070)	/guestbook	www.polarhome.com	27070
+i 		error.host	1
+iDIY sound and text		error.host	1
+1Stauropygial Records (DIY record label)	/stauropygial	gopher.rp.spb.su	70
+1Evil Pop / Zloj Pop (experimental band)	/evilpop	gopher.rp.spb.su	70
+1Ankylym (heavy metal/alko folk band)	/ankylym	gopher.rp.spb.su	70
+i 		error.host	1
+iOld Russian fonts and orthography		error.host	1
+1Download Old Russian fonts	/zalo	gopher.rp.spb.su	70
+i 		error.host	1
+1My books	/books	gopher.rp.spb.su	70
+1My books (Russian menu)	/ru/books	gopher.rp.spb.su	70
+i 		error.host	1
+i 		error.host	1
+0Cyrillic in Gopherspace	/cyrillic.txt	gopher.rp.spb.su	70
+0Cyrillic support in gopher clients	/client.txt	gopher.rp.spb.su	70
+i 		error.host	1
+i 		error.host	1
+0Contact me	/contact.txt	gopher.rp.spb.su	70
+i 		error.host	1
+.

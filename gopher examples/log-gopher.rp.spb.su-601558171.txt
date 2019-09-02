@@ -1,0 +1,50 @@
+iBooks		error.host	1
+i 		error.host	1
+iPoetry		error.host	1
+0Zubov'	/books/zubov.txt	gopher.rp.spb.su	70
+0Vospominanija atomnyh electrostancij	/books/atomn.txt	gopher.rp.spb.su	70
+0Vospominanija poleznyh iskopaemyh	/books/polezn.txt	gopher.rp.spb.su	70
+i 		error.host	1
+iProse in English		error.host	1
+0The Golsorg Island	/books/golsorg_en.txt	gopher.rp.spb.su	70
+0Some Weeks In The Middle Asia 	/books/someweek.txt	gopher.rp.spb.su	70
+0The Largol-Rikd Island	/books/largolen.txt	gopher.rp.spb.su	70
+0The Travel Of Akhmat Makharadze And His Friends...	/books/makharadzeen.txt	gopher.rp.spb.su	70
+0The Travel Along The Tropical Countries	/books/pptsen.txt	gopher.rp.spb.su	70
+0The Travel On The Balloon	/books/tballoonen.txt	gopher.rp.spb.su	70
+i 		error.host	1
+iProse in Russian		error.host	1
+0Ostrov Golsorg	/books/golsorg.txt	gopher.rp.spb.su	70
+0Puteshestvie po tropicheskim stranam, Tom 1	/books/ppts1.txt	gopher.rp.spb.su	70
+0Puteshestvie po tropicheskim stranam, Tom 2	/books/ppts2.txt	gopher.rp.spb.su	70
+0Puteshestvie po tropicheskim stranam, Tom 3	/books/ppts3.txt	gopher.rp.spb.su	70
+0Puteshestvie po tropicheskim stranam, Tom 4	/books/ppts4.txt	gopher.rp.spb.su	70
+0Puteshestvie po Afrike i Azii	/books/ppaa.txt	gopher.rp.spb.su	70
+0Neskolko nedel v Srednej Azii	/books/nnsa.txt	gopher.rp.spb.su	70
+0Dejanija Moyseja Kamkina (Knigi I-XII)	/books/kamkin1.txt	gopher.rp.spb.su	70
+0Apokryphicheskija Dejanija Moyseja Kamkina	/books/kamkin2.txt	gopher.rp.spb.su	70
+0Protodejanija Moyseja Kamkina	/books/kamkin3.txt	gopher.rp.spb.su	70
+0Lenin i deti	/books/lenindet.txt	gopher.rp.spb.su	70
+0Izbrannye sochinenija	/books/sochinen.txt	gopher.rp.spb.su	70
+0Rasskaz #1	/books/story1.txt	gopher.rp.spb.su	70
+0Sopli	/books/sopli.txt	gopher.rp.spb.su	70
+0Modernizm	/books/modernizm.txt	gopher.rp.spb.su	70
+1Works of Nonilion Stirat	/books/stirat	gopher.rp.spb.su	70
+i 		error.host	1
+iSuomeksi		error.host	1
+0Matkailu ilmapallolla	/books/matkailu_ilmapallolla.txt	gopher.rp.spb.su	70
+i 		error.host	1
+iJournalism and scientific		error.host	1
+0Prava ljagushki	/books/frogright.txt	gopher.rp.spb.su	70
+0Kak stat' ljagushkoj	/books/kakstat.txt	gopher.rp.spb.su	70
+0Osnovy sociologii	/books/socio_basics.txt	gopher.rp.spb.su	70
+0Interview s pisatelem A. Kudrjashovym	/books/interv_pis.txt	gopher.rp.spb.su	70
+i 		error.host	1
+iTragedy		error.host	1
+0Pasha & Dasha	/books/pasha.txt	gopher.rp.spb.su	70
+i 		error.host	1
+iDrama		error.host	1
+0Febel' trjapic	/books/febel.txt	gopher.rp.spb.su	70
+i 		error.host	1
+1Back to the main menu	/	gopher.rp.spb.su	70
+.

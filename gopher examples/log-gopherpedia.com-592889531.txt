@@ -1,0 +1,63 @@
+i                    _                              _ _       _	null	(FALSE)	0
+i                   | |                            | (_)     | |	null	(FALSE)	0
+i   __ _  ___  _ __ | |__   ___ _ __ _ __   ___  __| |_  __ _| |	null	(FALSE)	0
+i  / _` |/ _ \| '_ \| '_ \ / _ \ '__| '_ \ / _ \/ _` | |/ _` | |	null	(FALSE)	0
+i | (_| | (_) | |_) | | | |  __/ |  | |_) |  __/ (_| | | (_| |_|	null	(FALSE)	0
+i  \__, |\___/| .__/|_| |_|\___|_|  | .__/ \___|\__,_|_|\__,_(_)	null	(FALSE)	0
+i   __/ |     | |                   | |	null	(FALSE)	0
+i  |___/      |_|                   |_|	null	(FALSE)	0
+i	null	(FALSE)	0
+iWelcome to **Gopherpedia**, the gopher interface to Wikipedia. This is	null	(FALSE)	0
+ia direct interface to wikipedia, you can search and read articles via	null	(FALSE)	0
+ithe search form below. Enjoy!	null	(FALSE)	0
+i	null	(FALSE)	0
+1more about gopherpedia	/about	gopherpedia.com	70
+i	null	(FALSE)	0
+i	null	(FALSE)	0
+iSearch gopherpedia:	null	(FALSE)	0
+7Search Gopherpedia	/lookup	gopherpedia.com	70
+i                           Featured Content	null	(FALSE)	0
+i======================================================================	null	(FALSE)	0
+0September  2, 2019: Lawrence Weathers	/Lawrence Weathers	gopherpedia.com	70
+0September  1, 2019: The Mummy (1999 film)	/The Mummy (1999 film)	gopherpedia.com	70
+0August 31, 2019: Taxonomy of lemurs	/Taxonomy of lemurs	gopherpedia.com	70
+0August 30, 2019: Tropical Storm Faxai (2007)	/Tropical Storm Faxai (2007)	gopherpedia.com	70
+0August 29, 2019: All Money Is Legal	/All Money Is Legal	gopherpedia.com	70
+0August 28, 2019: Vesna Vulovi??	/Vesna Vulovi??	gopherpedia.com	70
+0August 27, 2019: William Hayden English	/William Hayden English	gopherpedia.com	70
+0August 26, 2019: Alabama Centennial half dollar	/Alabama Centennial half dollar	gopherpedia.com	70
+0August 25, 2019: Richie Farmer	/Richie Farmer	gopherpedia.com	70
+0August 24, 2019: Battle of Blanchetaque	/Battle of Blanchetaque	gopherpedia.com	70
+i	null	(FALSE)	0
+i	null	(FALSE)	0
+i                             Recent pages	null	(FALSE)	0
+i======================================================================	null	(FALSE)	0
+0Salsa (dance)	/Salsa (dance)	gopherpedia.com	70
+0Milos Raonic	/Milos Raonic	gopherpedia.com	70
+0Asahikawa	/Asahikawa	gopherpedia.com	70
+0List of One Piece characters	/List of One Piece characters	gopherpedia.com	70
+0Lists of One Piece episodes	/Lists of One Piece episodes	gopherpedia.com	70
+0One Piece	/One Piece	gopherpedia.com	70
+0List of AKB48 members	/List of AKB48 members	gopherpedia.com	70
+0Sakura Kinomoto	/Sakura Kinomoto	gopherpedia.com	70
+0Cardcaptor Sakura	/Cardcaptor Sakura	gopherpedia.com	70
+0Powderfinger	/Powderfinger	gopherpedia.com	70
+0Sakura Tange	/Sakura Tange	gopherpedia.com	70
+0List of graphical user interface elements	/List of graphical user interface elements	gopherpedia.com	70
+0History of the graphical user interface	/History of the graphical user interface	gopherpedia.com	70
+0Graphical user interface builder	/Graphical user interface builder	gopherpedia.com	70
+0Graphical user interface	/Graphical user interface	gopherpedia.com	70
+0Symphogear	/Symphogear	gopherpedia.com	70
+0List of Symphogear episodes	/List of Symphogear episodes	gopherpedia.com	70
+0Hinata Hyuga	/Hinata Hyuga	gopherpedia.com	70
+0Lawrence Weathers	/Lawrence Weathers	gopherpedia.com	70
+0Junko Iwao	/Junko Iwao	gopherpedia.com	70
+i	null	(FALSE)	0
+i	null	(FALSE)	0
+i	null	(FALSE)	0
+i	null	(FALSE)	0
+i	null	(FALSE)	0
+i	null	(FALSE)	0
+iPowered by Gopher 2000, a Muffinlabs Production	null	(FALSE)	0
+
+.

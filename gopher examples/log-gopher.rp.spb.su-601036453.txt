@@ -1,0 +1,30 @@
+
+Mozilla
+
+Tested on:
+1) Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.16) Gecko/20080702 SeaMonkey/1.1.11 (via squid/2.5.STABLE7)
+
+- 8-bit text in menus is converted to ISO-8859-1. UTF-8 in menus is treated as 8-bit text.
+
+2) Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.0.14eol) Gecko/20070505 Iceape/1.0.9 (Debian-1.0.13~pre080323b-0etch3)
+
+- UTF-8 symbols (tested with cyrillic range) displayed as quetion marks
+- KOI-8 is not displayed at all
+- The same with Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.12) Gecko/2008012900 Iceweasel/2.0.0.12 (Debian-2.0.0.12-0etch1)
+ 
+UMN gopher and Lynx
+
+- KOI-8 symbols are OK with KOI-8 locale and correct fonts in xterm
+- UTF-8 symbols are treated as 8-bit in xterm and corrupted in uxterm
+(locale is irrelevant)
+- Looks like Lynx's charset options do not affect gopher appearance
+
+OverbiteFF (latest version)
+
+- With a 8-bit encoding set as browser's default encoding, 8-bit text in that encoding is displayed correctly out of the box. Need to explicitly set encoding for utf-8 text in that case. Didn't check what happens with 8-bit encoding if default is utf-8.
+
+(Corruption of UTF-8 in both clients is the same and  can be related to some OS issues so
+it needs more testing)
+
+
+.

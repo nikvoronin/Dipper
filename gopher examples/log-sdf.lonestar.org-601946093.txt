@@ -1,0 +1,21 @@
+iWelcome to the SDF Public Access UNIX System .. est. 1987		null.host	1
+i		null.host	1
+iOfficial Site of the Internet Gopher Club Underground Syndicate		null.host	1
+i		null.host	1
+iWe offer FREE and inexpensive memberships for people interested		null.host	1
+iin the UNIX system and internetworking.  Personal GOPHERSPACE		null.host	1
+iis available to all users as well as hundreds of UNIX utilities,		null.host	1
+igames and networking utilities.  We are a federally recognized		null.host	1
+inon-profit 501(c)7 organization and we are supported entirely		null.host	1
+iby donations and membership dues.  ssh://sdf.org		null.host	1
+i		null.host	1
+1SDF PHLOGOSPHERE (290 phlogs)	/phlogs/	gopher.club	70
+1SDF GOPHERSPACE (1254 ACTIVE users)	/maps/	sdf.org	70
+1SDF GOPHERSPACE (1437 AGED users)	/aged-maps/	sdf.org	70
+1SDF GOPHERSPACE (475 ANCIENT users)	/ancient-maps/	sdf.org	70
+1SDF Frequently Asked Questions (FAQ)	/sdf/faq/	sdf.org	70
+1SDF Accredited University Courses	/sdf/classes/	sdf.org	70
+1Software and Documentation for various computers	/computers	sdf.org	70
+7GopherSpace SEARCH Engine	/v2/vs	gopher.floodgap.com	70
+1Floodgap's GOPHERSPACE	/	gopher.floodgap.com	70
+.

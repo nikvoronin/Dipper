@@ -1,0 +1,68 @@
+1Floodgap Systems gopher root	/	gopher.floodgap.com	70
+i 		error.host	1
+iWelcome to Gopherspace!		error.host	1
+iThese documents and files should help you get started with		error.host	1
+iusing and creating gopher content.		error.host	1
+i 		error.host	1
+0Does this gopher menu look correct?	/gopher/proxy	gopher.floodgap.com	70
+i 		error.host	1
+i-- All about gopher -----------------------------------------------		error.host	1
+0A Brief Introduction to Gopherspace -- READ ME FIRST!	/gopher/welcome	gopher.floodgap.com	70
+0Why is gopher still relevant?	/gopher/relevance.txt	gopher.floodgap.com	70
+i 		error.host	1
+i"Thinking of it like that, a method of easily serving directories		error.host	1
+iof data, rather than a scaled down web makes the whole thing more		error.host	1
+iappealing I think." -- Rob Sayers		error.host	1
+i 		error.host	1
+0Robert Bigelow: Gopher & Gopherspace	/users/rbigelo/gopher.txt	sdf.org	70
+i 		error.host	1
+0Wired 08/2010: The Web Is Dead. Long Live The Internet.	/gopher/webisdead.txt	gopher.floodgap.com	70
+i(Wired 08/2010. We'll take this down if Wired objects.)		error.host	1
+i 		error.host	1
+0The creators of Gopherspace at UMN (Star Tribune 11/5/01)	/gopher/StarTribune.txt	gopher.floodgap.com	70
+i 		error.host	1
+0Using your web browser to explore Gopherspace	/gopher/wbgopher	gopher.floodgap.com	70
+i(and why you shouldn't use Internet Explorer)		error.host	1
+1The Overbite Project: Gopher clients for mobile and desktop (OverbiteWX, OverbiteNX, Overbite Android)	/overbite	gopher.floodgap.com	70
+i(download Overbite clients for your operating system		error.host	1
+ior browser, including Firefox!)		error.host	1
+1Patches and clients for other legacy platforms	/gopher/clients	gopher.floodgap.com	70
+i 		error.host	1
+i-- Creating your own gopher ---------------------------------------		error.host	1
+iCreate your own gopherspace and come forward into the past!		error.host	1
+i 		error.host	1
+1The SDF Member PHLOGOSPHERE		phlogosphere.org	70
+iDon't have your own server? Create it for free at SDF! Or, if you		error.host	1
+ihave your own Unix machine with Perl, install		error.host	1
+1The Bucktooth gopher server	/buck	gopher.floodgap.com	70
+i 		error.host	1
+iThen get started creating your own content. Take a look at the		error.host	1
+1The Gopher Toybox: sample gophermaps to create your own server	/gopher/toybox	gopher.floodgap.com	70
+ito download a sample set of files you can modify yourself!		error.host	1
+iThis is public domain.		error.host	1
+i 		error.host	1
+i-- Share your gopherspace -----------------------------------------		error.host	1
+iNow that it's running, tell everyone about it!		error.host	1
+i 		error.host	1
+iGet a dual-purpose social media link with the fld.gp shortener:		error.host	1
+1Floodgap Gopher Shortener Service	/gopher/shorten	fld.gp	70
+i 		error.host	1
+iDid you just put a completely new server online?		error.host	1
+iTell us about your new server and Veronica will come index it:		error.host	1
+1New gopher servers since 1999	/new	gopher.floodgap.com	70
+i 		error.host	1
+i-- Reference documentation ----------------------------------------		error.host	1
+1Technical specifications, RFCs, documents	/gopher/tech	gopher.floodgap.com	70
+i 		error.host	1
+i** Points to ponder:		error.host	1
+i 		error.host	1
+i[We] like to consider the hundreds of interconnected		error.host	1
+iGopher servers to be one large distributed entity; thus,		error.host	1
+iwe speak of "the Gopher", with its many small parts,		error.host	1
+ispread throughout the Internet. The Gopher is always		error.host	1
+igrowing, always changing. It's everywhere, but you can't		error.host	1
+ilocate it; it's always there, but you can't see it. ...		error.host	1
+iThe Gopher is the largest and most practical example of		error.host	1
+iapplied pantheism in the history of mankind.		error.host	1
+i      Hahn; Stout. The Internet Complete Reference (1994)		error.host	1
+.

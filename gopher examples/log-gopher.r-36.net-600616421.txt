@@ -1,0 +1,243 @@
+iLog - geomyidae - A small C-based gopherd. (gopher://bitreich.org/1/scm/geomyidae)	Err	gopher.r-36.net	70
+hgit clone git://r-36.net/geomyidae	URL:git://r-36.net/geomyidae	gopher.r-36.net	70
+1Log	/scm/geomyidae/log.gph	gopher.r-36.net	70
+1Files	/scm/geomyidae/files.gph	gopher.r-36.net	70
+1Refs	/scm/geomyidae/refs.gph	gopher.r-36.net	70
+1README	/scm/geomyidae/file/README.gph	gopher.r-36.net	70
+1LICENSE	/scm/geomyidae/file/LICENSE.gph	gopher.r-36.net	70
+i---	Err	gopher.r-36.net	70
+iDate              Commit message                                      Author	Err	gopher.r-36.net	70
+12019-07-18 19:35  Bump up my year in contributions.                   Christoph Lohmann        	/scm/geomyidae/commit/66ca5bb6c50e73fa70c23fd831b021759a22aa06.gph	gopher.r-36.net	70
+12019-07-18 19:35  Add geomyidae logo as svg version.                  Christoph Lohmann        	/scm/geomyidae/commit/812147ac244b5149b5d3e7cb907ce34050b636d0.gph	gopher.r-36.net	70
+12019-07-14 12:56  Rework OpenRC initscripts so they are symlinkable.  parazyd                  	/scm/geomyidae/commit/b4cc2ac78ab2c2adfb2c9f5d484a85d6a62b24b4.gph	gopher.r-36.net	70
+12019-03-13 21:42  gophermap2gph is now at shroom.party.               Christoph Lohmann        	/scm/geomyidae/commit/6fcf2a6aff1c5c4cdf4ce029209b7bf624fbcd72.gph	gopher.r-36.net	70
+12018-12-24 11:31  Add searx dcgi interface to links.                  Christoph Lohmann        	/scm/geomyidae/commit/56462b44bebee5902bdfb0770497a187cb4636ba.gph	gopher.r-36.net	70
+12018-11-19 02:04  Let happy helping snowman help you in case no men???  Christoph Lohmann        	/scm/geomyidae/commit/6b8a124ccaf406cac311bf3370f6e07c71752321.gph	gopher.r-36.net	70
+12018-11-18 12:09  improve realpath lookup for relative paths          Hiltjo Posthuma          	/scm/geomyidae/commit/a10c97c30ba60dc3a6f04007944add595226060d.gph	gopher.r-36.net	70
+12018-11-15 20:27  Show new interface behaviour in manpage and help ???  Christoph Lohmann        	/scm/geomyidae/commit/e32a3c324c94aa302f866d422ac6f1340593c01c.gph	gopher.r-36.net	70
+12018-11-15 20:13  Preparing v0.34 release.                            Christoph Lohmann        	/scm/geomyidae/commit/4fe10e742add6f47102b7905fc9c7a606a75df2c.gph	gopher.r-36.net	70
+12018-11-12 21:42  Annoy_Leot found this. I had to change it. It is ???  Christoph Lohmann        	/scm/geomyidae/commit/37d8397b8e850f2ba35ae8d4a109360da294732f.gph	gopher.r-36.net	70
+12018-11-12 21:34  Do not use HOST_NAME_MAX, NetBSD does not have it.  Christoph Lohmann        	/scm/geomyidae/commit/904c8907275f13139e91bf1c3179f745d69f7fac.gph	gopher.r-36.net	70
+12018-11-12 21:11  Ross_Bob found this last printf.                    Christoph Lohmann        	/scm/geomyidae/commit/fd891de55bff0439c95c8eb1008f7055785a3886.gph	gopher.r-36.net	70
+12018-11-12 20:50  Remove last debugging messages.                     Christoph Lohmann        	/scm/geomyidae/commit/4d9d7f9471b8629e952d18ec5e59b0c7c009fec6.gph	gopher.r-36.net	70
+12018-11-11 14:07  if no interface is specified with -i listen on al???  Hiltjo Posthuma          	/scm/geomyidae/commit/3db43cc72cf7a9ca314ecafba616e8d7910e30f5.gph	gopher.r-36.net	70
+12018-11-11 13:00  simplify listfds handling                           Hiltjo Posthuma          	/scm/geomyidae/commit/aa6b70539a2b175efadad1d5f6a771d77a92f8ef.gph	gopher.r-36.net	70
+12018-11-11 12:05  Free bindips after use.                             Christoph Lohmann        	/scm/geomyidae/commit/206c57aca0611bef65a365710aaef32529634b5c.gph	gopher.r-36.net	70
+12018-11-11 12:02  First version of multi listen.                      Christoph Lohmann        	/scm/geomyidae/commit/60f33bbe3b6c58d451dad69933c1eb8b36cf3997.gph	gopher.r-36.net	70
+12018-11-11 10:30  Remove double usage of listfd.                      Christoph Lohmann        	/scm/geomyidae/commit/3c940036398f0c5cb4b3822cb6f8ea1a76e2c968.gph	gopher.r-36.net	70
+12018-11-11 10:24  Makefile: bump version to 0.33                      Hiltjo Posthuma          	/scm/geomyidae/commit/e10b526637100dd52538ee4ebc1ad857018c3fee.gph	gopher.r-36.net	70
+12018-11-11 10:09  Allow dualstack binding again.                      Christoph Lohmann        	/scm/geomyidae/commit/24a79c11d203eef18e389d5828393727629205a8.gph	gopher.r-36.net	70
+12018-11-11 10:00  Fix for using AF_INET by default. Otherwise AF_IN???  Christoph Lohmann        	/scm/geomyidae/commit/61d8eaf684d3c7751e63e04ad37411b53af101ac.gph	gopher.r-36.net	70
+12018-10-30 19:48  Use POSIX HOST_NAME_MAX, which is cleaner.          Christoph Lohmann        	/scm/geomyidae/commit/3328e3e0954e74d3397246b26a0fcbccc9567e4e.gph	gopher.r-36.net	70
+12018-10-30 19:46  Have useful errors on group and user errors.        Christoph Lohmann        	/scm/geomyidae/commit/d878002edce4e4a731a4936011e045f162d5c967.gph	gopher.r-36.net	70
+12018-10-28 16:26  Fix errno handling.                                 Christoph Lohmann        	/scm/geomyidae/commit/06e2364496697e53a903409adb3fcf09926adb06.gph	gopher.r-36.net	70
+12018-09-13 18:43  no need to check pointer before free                Hiltjo Posthuma          	/scm/geomyidae/commit/5bd1a482d555bce8593f1d3f6b12cbb27884a7b4.gph	gopher.r-36.net	70
+12018-09-13 18:42  strip / at the end of the base path                 Hiltjo Posthuma          	/scm/geomyidae/commit/2760fe803a9ea8574dd7fa57b17708f283b5dbe0.gph	gopher.r-36.net	70
+12018-09-04 13:49  Close Bd. Ed. blocks in man page                    lambda                   	/scm/geomyidae/commit/baf4df6c6481209962d0fa861dcbb6b9d69467a6.gph	gopher.r-36.net	70
+12018-09-03 19:57  Save finding a realpath on various item types wit???  Christoph Lohmann        	/scm/geomyidae/commit/44bcfd8e6f0ce9919b41fba0b2245660780d2224.gph	gopher.r-36.net	70
+12018-09-01 12:20  Fix regression, if sport is never set.              Christoph Lohmann        	/scm/geomyidae/commit/dd5de127a721468b97bc4b7741cdb76f17812b8a.gph	gopher.r-36.net	70
+12018-08-30 20:10  Fix manpage with now allowed relative paths.        Christoph Lohmann        	/scm/geomyidae/commit/209e54941ded32433e03070038ef8b0a6c2ed214.gph	gopher.r-36.net	70
+12018-08-30 20:07  Actually, use xstrdup where we can not use strcpy   Quentin Rameau           	/scm/geomyidae/commit/9525546dc2dc01b8d555990827959208282f66f8.gph	gopher.r-36.net	70
+12018-08-30 19:59  Merge branch 'master' into HEAD                     Christoph Lohmann        	/scm/geomyidae/commit/0b862a1985fd1623141a6b9463d0cc50e4fab158.gph	gopher.r-36.net	70
+12018-08-30 19:18  Forbid inet connections to inet6 socket when ipv6???  Quentin Rameau           	/scm/geomyidae/commit/dfb715b2f86a449eacc1c5b33568a3c60b12a5d5.gph	gopher.r-36.net	70
+12018-08-30 19:17  Simplify socket binding                             Quentin Rameau           	/scm/geomyidae/commit/87e1fba0998bc690d6ebb33ca8b4087a5d97af1a.gph	gopher.r-36.net	70
+12018-08-30 19:15  Use strcpy where we control the buffer size         Quentin Rameau           	/scm/geomyidae/commit/a86a1cbb6590aed14e144d5abde60205654324d8.gph	gopher.r-36.net	70
+12018-08-30 19:35  In case the listen port is set, set show port too???  Christoph Lohmann        	/scm/geomyidae/commit/7ca184a99e81c3549a8a3d82ec7a201686cf3040.gph	gopher.r-36.net	70
+12018-08-30 19:32  Changing the fallback error to something meaningf???  Christoph Lohmann        	/scm/geomyidae/commit/fc1097d34bbf1c47b7f33275a8657d6d920e3a6a.gph	gopher.r-36.net	70
+12018-08-30 19:27  Add preliminary relative path support for gph fil???  Christoph Lohmann        	/scm/geomyidae/commit/4d89b560595076c8994896195fbcd196460987dc.gph	gopher.r-36.net	70
+12018-08-30 17:07  Add true getaddrinfo errors, but add inconsistenc???  Christoph Lohmann        	/scm/geomyidae/commit/a8e69abfa2b38ef12bad79516bf02da7701d549c.gph	gopher.r-36.net	70
+12018-08-29 18:31  fix uninitialized buffer for getnameinfo on failu???  Hiltjo Posthuma          	/scm/geomyidae/commit/bc06de10b6d279ef57ad0ba294610447bd2988fc.gph	gopher.r-36.net	70
+12018-08-29 18:22  fix pedantic usage address_len parameter in accep???  Hiltjo Posthuma          	/scm/geomyidae/commit/f02d57cfae2c18951b665353b21aed02d29731a9.gph	gopher.r-36.net	70
+12018-08-29 18:18  getlistenfd: on setsockopt failure it could retur???  Hiltjo Posthuma          	/scm/geomyidae/commit/cb9b6b70dbc6b33cc29364ba31023ffeb0579085.gph	gopher.r-36.net	70
+12018-08-29 18:17  getlistenfd: fix minor memleak                      Hiltjo Posthuma          	/scm/geomyidae/commit/feed37adc1b23cac513b5d2a17bda4e2ffc77c81.gph	gopher.r-36.net	70
+12018-08-29 18:16  getlistenfd: reorder + minor cleanup                Hiltjo Posthuma          	/scm/geomyidae/commit/7474d9bd62ae23a8bd355aaf83be9fe9a9693d4d.gph	gopher.r-36.net	70
+12018-08-29 18:03  don't exit on SIGHUP                                Hiltjo Posthuma          	/scm/geomyidae/commit/8d9bad389a4ac22fc292f92d0128af8679e640fa.gph	gopher.r-36.net	70
+12018-08-23 12:00  Sendfile in Linux and FreeBSD are different.        Christoph Lohmann        	/scm/geomyidae/commit/c89bef327e78a4c0400b3665d249d36af6a3160b.gph	gopher.r-36.net	70
+12018-08-23 11:42  Do more sendfile, in case sendfile did not send e???  Christoph Lohmann        	/scm/geomyidae/commit/eb18ab03d6c767aa5f355d802b00ad7ec2a3055f.gph	gopher.r-36.net	70
+12018-08-20 16:16  change selinval error message to reflect what it ???  Hiltjo Posthuma          	/scm/geomyidae/commit/efab0d1f664ac58350ead1e8e7259a31916babe1.gph	gopher.r-36.net	70
+12018-08-13 13:09  Add a commit about how to handle environment vari???  Christoph Lohmann        	/scm/geomyidae/commit/fc6e766a8c45e7a83a0f3b40345b7dccf4e49b11.gph	gopher.r-36.net	70
+12018-08-10 13:31  Add the gopher cgi collection of leot.              Christoph Lohmann        	/scm/geomyidae/commit/d8ae4004e9ef36ea38296205f3723527d45a17a5.gph	gopher.r-36.net	70
+12018-06-29 19:21  v0.32.2 fix release.                                Christoph Lohmann        	/scm/geomyidae/commit/bc39f3c415646177622129e94a4ba10e4f8f440e.gph	gopher.r-36.net	70
+12018-06-28 11:07  Makefile: install to /usr/local instead of /usr     Quentin Rameau           	/scm/geomyidae/commit/53f0ce4b3912027648fc11c7a76624f4f3f4ce50.gph	gopher.r-36.net	70
+12018-06-27 08:34  Pledge dns for the fork too in case of hostname l???  Quentin Rameau           	/scm/geomyidae/commit/50a7926572a40172d5c2ffe870d41ca7dc9d7046.gph	gopher.r-36.net	70
+12018-06-27 09:08  We don't need to pledge tty anymore since 65f998f   Quentin Rameau           	/scm/geomyidae/commit/dd3f998b716d869d25af0df0d94685d56e882bd1.gph	gopher.r-36.net	70
+12018-06-24 09:52  Marking v0.32.1 fixes release.                      Christoph Lohmann        	/scm/geomyidae/commit/3dfa0e1271ad78774a06452913fb30aa0bf25eb0.gph	gopher.r-36.net	70
+12018-06-23 09:32  fix promises buffer size and small cleanup          Hiltjo Posthuma          	/scm/geomyidae/commit/b6cd8dc7652f6a9cc6e74bf24b0df27be2a47d32.gph	gopher.r-36.net	70
+12018-06-22 21:49  fix typo in rc.geomyidae slackware init script      slackhead                	/scm/geomyidae/commit/25298ac2cb69c28100c9cc5aa1fde245e23743f5.gph	gopher.r-36.net	70
+12018-06-22 20:14  Prepare a new release.                              Christoph Lohmann        	/scm/geomyidae/commit/62f5197e616324a339c052dc83ee043442b2ab7d.gph	gopher.r-36.net	70
+12018-06-22 20:13  Removing trailing whitespace.                       Christoph Lohmann        	/scm/geomyidae/commit/0575ce0ef2b5c4b5dff6ad2e88ea496967bd98ec.gph	gopher.r-36.net	70
+12018-06-22 20:10  Add pledge support for OpenBSD, with help from Qu???  Solene Rapenne           	/scm/geomyidae/commit/65f998fa79fc979a3862d0ae8c0a7c46f7891383.gph	gopher.r-36.net	70
+12018-06-22 16:08  This part of the API has changed. No third-party ???  Christoph Lohmann        	/scm/geomyidae/commit/d42bd360c1ae7700c0b197e4e017e5f2a5ae8a3c.gph	gopher.r-36.net	70
+12018-06-22 15:14  The West-NULL-Fever is spreading in geomyidae. :O   Christoph Lohmann        	/scm/geomyidae/commit/9fa079475e8e3113e34d3e0739abf53d8bc348a3.gph	gopher.r-36.net	70
+12018-06-22 15:10  Merge branch 'master' of ssh://r-36.net/srv/git/g???  Christoph Lohmann        	/scm/geomyidae/commit/af0bafaaf168f6e332dbd3f509d5122662798262.gph	gopher.r-36.net	70
+12018-06-22 15:09  Add nocgi flag support.                             Christoph Lohmann        	/scm/geomyidae/commit/41351723302568be16bae736faecf9135fb612c3.gph	gopher.r-36.net	70
+12018-03-22 12:08  Return an error message for selectors containing ???  Christian Kellermann     	/scm/geomyidae/commit/ce4493bfe5e03be7d7366962600933b1178ebbfd.gph	gopher.r-36.net	70
+12018-03-15 17:27  style: fix parenthesis for sizeof                   Hiltjo Posthuma          	/scm/geomyidae/commit/023fde401dd25419b07b1be7675f5b8c27f2fa80.gph	gopher.r-36.net	70
+12018-03-08 15:03  Log UTC time instead of localized time              Quentin Rameau           	/scm/geomyidae/commit/18d0d655c407fb4fadf7dddd995190dbb71509f2.gph	gopher.r-36.net	70
+12018-02-22 19:15  Justify some more text in the man page.             Christoph Lohmann        	/scm/geomyidae/commit/f7a863b5f13d9a4cabb9a51b79125ef63c7e7759.gph	gopher.r-36.net	70
+12018-02-22 19:09  GET is a string value.                              Christoph Lohmann        	/scm/geomyidae/commit/ed369ac19bf14195a6056f877595d728d6456c64.gph	gopher.r-36.net	70
+12018-02-22 19:07  Fix gopherproject URI.                              Christoph Lohmann        	/scm/geomyidae/commit/0723be3621ca2141a0ce996059b7f9182c46d2c2.gph	gopher.r-36.net	70
+12018-02-18 15:25  Add sfeed as a geomyidae application.               Christoph Lohmann        	/scm/geomyidae/commit/756c2fd046cae213a48208bbe497cefe4546018f.gph	gopher.r-36.net	70
+12018-02-18 10:55  Fix release for pendingbytes.                       Christoph Lohmann        	/scm/geomyidae/commit/39ac2d38341cf642a92b74cf0e309101ba652691.gph	gopher.r-36.net	70
+12018-02-18 10:23  Simplify the timeout logic. Make comments more cl???  Christoph Lohmann        	/scm/geomyidae/commit/f6d49dbdcefb8ff41d19939401efe8d11054e592.gph	gopher.r-36.net	70
+12018-02-18 08:36  No rval debug printf needed.                        Christoph Lohmann        	/scm/geomyidae/commit/c8c0cd126424dfd23ff7df6d60f32e1bb18deff6.gph	gopher.r-36.net	70
+12018-02-18 08:33  Another hack for SO_LINGER in Linux.                Christoph Lohmann        	/scm/geomyidae/commit/1908f14b2d4df2a0530fc4c7ca308220c89871c0.gph	gopher.r-36.net	70
+12018-02-09 13:54  Bump version to 0.31.                               Christoph Lohmann        	/scm/geomyidae/commit/2c95cfddd2b4d2aca43bdcad09cdadd3214a10c9.gph	gopher.r-36.net	70
+12018-02-07 20:02  use TIOCOUTQ instead of SIOCOUTQ                    Hiltjo Posthuma          	/scm/geomyidae/commit/d8bbf95b6651b772f9701efdd75669cd1dda0266.gph	gopher.r-36.net	70
+12018-02-07 19:48  fix minor fd leak regression in handlebin           Hiltjo Posthuma          	/scm/geomyidae/commit/e1ad0cf0b73a9ed594dfcb040044627b1e358e60.gph	gopher.r-36.net	70
+12018-02-07 19:40  check Linux for Linux specific header and non-sta???  Hiltjo Posthuma          	/scm/geomyidae/commit/37420efd2d6430a88d60edd2c373689069b3c26e.gph	gopher.r-36.net	70
+12018-02-07 19:37  Revert count > 0 to count == 0.                     Christoph Lohmann        	/scm/geomyidae/commit/79a7e08112044a199af35e9c7f9a3f75c3639e25.gph	gopher.r-36.net	70
+12018-02-07 19:17  Advance send buffer in xsendfile for conservative???  Christoph Lohmann        	/scm/geomyidae/commit/74efed84eb2e5cc3f5b72be8b112020a362e7232.gph	gopher.r-36.net	70
+12018-02-07 18:59  Merge branch 'master' of /srv/git/geomyidae         Christoph Lohmann        	/scm/geomyidae/commit/e9292b7acff19655482c6b53ff19f8c51f06bdcd.gph	gopher.r-36.net	70
+12018-02-07 18:57  Reworking the socket closing handling.              Christoph Lohmann        	/scm/geomyidae/commit/ecf782f0557effe122f791f839a509ec428d236e.gph	gopher.r-36.net	70
+12018-01-30 21:44  Gopher+ in all ways + comment on why it is done.    Christoph Lohmann        	/scm/geomyidae/commit/f4cac1fea572c34eaf23baef928d7aa313ae9ccf.gph	gopher.r-36.net	70
+12018-01-30 21:21  Adding gopher+ compatibility.                       Christoph Lohmann        	/scm/geomyidae/commit/a1cdda3a103efbe3da4dfed6b2b26301d1b83757.gph	gopher.r-36.net	70
+12018-01-27 14:51  PHP expects some value to run php-cgi.              Christoph Lohmann        	/scm/geomyidae/commit/1ee9a83904a0077b273014297bd5ca0a1d076148.gph	gopher.r-36.net	70
+12018-01-26 23:12  Add gph syntax highlighting for vim.                Christoph Lohmann        	/scm/geomyidae/commit/ee3327f3996c087888b649f06f27040a1d7283de.gph	gopher.r-36.net	70
+12018-01-26 22:01  New 0.30 release.                                   Christoph Lohmann        	/scm/geomyidae/commit/da7f9465e18e7857c1c3b093c8988921f86fd97c.gph	gopher.r-36.net	70
+12018-01-26 13:20  Add new CGI environment to manpage.                 Christoph Lohmann        	/scm/geomyidae/commit/1b2b79b5a0257b116c77981f0b9d640e1802728c.gph	gopher.r-36.net	70
+12018-01-26 13:08  Fix the CGI PATH variables.                         Christoph Lohmann        	/scm/geomyidae/commit/204334bcd5b557e42bafc47502016d7f0f71ca91.gph	gopher.r-36.net	70
+12018-01-26 12:54  In case of IPv4 to IPv6 translation, give back IP???  Christoph Lohmann        	/scm/geomyidae/commit/f4e4537ed6597fecff177869993b0c334b257d64.gph	gopher.r-36.net	70
+12018-01-26 12:44  Implement some CGI variables for gopher.            Christoph Lohmann        	/scm/geomyidae/commit/67eb195e1924b652b193e6332c1ce8f00fd1f2c9.gph	gopher.r-36.net	70
+12018-01-23 19:02  Only free ahost if the reverse lookup was perform???  Lucas Gabriel Vuotto     	/scm/geomyidae/commit/f26ccad8ca8d0f79f7195f6871bb2ceac816ccfa.gph	gopher.r-36.net	70
+12018-01-23 18:43  Add flag to not perform reverse lookups             Lucas Gabriel Vuotto     	/scm/geomyidae/commit/03a382fe95dfeb696629733bbb5a9a751df1b3aa.gph	gopher.r-36.net	70
+12018-01-22 18:10  Print the actual BINDIR instead of PREFIX/bin       Lucas Gabriel Vuotto     	/scm/geomyidae/commit/e3c493c41e23b8eed9492a442b7061c927899368.gph	gopher.r-36.net	70
+12017-12-18 19:06  Change the time and log format to be easier parsa???  Christoph Lohmann        	/scm/geomyidae/commit/aca1a622b23ce1050b01dc7b96f46755e9f91d2e.gph	gopher.r-36.net	70
+12017-12-18 18:35  Use a consistent separator for the port in the lo???  Solene Rapenne           	/scm/geomyidae/commit/3fdfda137171168dcc7a3eaf6e9a073d48281f4e.gph	gopher.r-36.net	70
+12017-11-26 16:51  Unifying style.                                     Christoph Lohmann        	/scm/geomyidae/commit/b3a670dc6f8379b16c6f86e76b1a6f84fc75bf54.gph	gopher.r-36.net	70
+12017-11-25 18:00  Update Slackware startup script: rc.geomyidae       Slackhead                	/scm/geomyidae/commit/b5deb9c4f2c6c495d553fa22bd16e743848e2de6.gph	gopher.r-36.net	70
+12017-11-14 18:32  Makefile: don't force strip binaries on install     Hiltjo Posthuma          	/scm/geomyidae/commit/8a45db6e405745c2787614b7a741655f0889e66f.gph	gopher.r-36.net	70
+12017-11-14 18:13  POSIXify the Makefile                               Quentin Rameau           	/scm/geomyidae/commit/57d842c9c54d7eea720f6f03ef5c8ac6a58bbb08.gph	gopher.r-36.net	70
+12017-11-14 17:58  Slackware rc file patch                             David Woodfall           	/scm/geomyidae/commit/a92eba598604e4892b536e3f2b88f5d745414ba8.gph	gopher.r-36.net	70
+12017-10-30 17:42  fix fork() regression introduced in 60e5e4b101040???  Hiltjo Posthuma          	/scm/geomyidae/commit/7d6e2741cba15fa46a3f19c6bfcaa47f6feb558b.gph	gopher.r-36.net	70
+12017-10-18 16:08  Fixing the gentoo init.d script.                    Christoph Lohmann        	/scm/geomyidae/commit/c34197096e645ab4e8e97fb10027562f90a21bc1.gph	gopher.r-36.net	70
+12017-10-11 13:25  Add LINKS file for additional geomyidae resources.  Christoph Lohmann        	/scm/geomyidae/commit/9725b7f1b23d5df2decd91ae9deea8ad238d0105.gph	gopher.r-36.net	70
+12017-10-11 13:03  Be a bit more helpful in the CGI description.       Christoph Lohmann        	/scm/geomyidae/commit/fa26f7e1f75b2489635415af8815efb1f3b9880e.gph	gopher.r-36.net	70
+12017-10-10 18:39  Happy helping ??? is here to help you with spurious???  Christoph Lohmann        	/scm/geomyidae/commit/a008a6b5af9fa5fb95ea950b72196548816990c4.gph	gopher.r-36.net	70
+12017-10-10 18:10  Add description of new parser and escaping rule f???  Christoph Lohmann        	/scm/geomyidae/commit/157431d0ab6a420c93d1f188a3042d3f2252ebfb.gph	gopher.r-36.net	70
+12017-10-10 18:00  Add pipe escaping to descriptions of items.         Christoph Lohmann        	/scm/geomyidae/commit/ca5a2fc2bbcaf990979b29c43c8f0e4b69c2761e.gph	gopher.r-36.net	70
+12017-09-29 11:45  Version bump for release.                           Christoph Lohmann        	/scm/geomyidae/commit/c015b09cb45af558167c6dc2053c6c20810a97ad.gph	gopher.r-36.net	70
+12017-09-29 11:40  Fix index.bin support.                              Christoph Lohmann        	/scm/geomyidae/commit/76960b3ae3a02bc1a267142102465328acdf4981.gph	gopher.r-36.net	70
+12017-09-24 16:38  Correct the comment. General elections are blindi???  Christoph Lohmann        	/scm/geomyidae/commit/6a674806ad1da35acf0410823aeaa4de986b70b2.gph	gopher.r-36.net	70
+12017-09-24 16:35  Add comments for the new xsendfile.                 Christoph Lohmann        	/scm/geomyidae/commit/8b62f1e60e9774368bfdb209f3bebc8f51d6e0b8.gph	gopher.r-36.net	70
+12017-09-24 10:58  LICENSE: update and add hiltjo                      Hiltjo Posthuma          	/scm/geomyidae/commit/b92f702f27e642838e51e8b308c482c08ebdc786.gph	gopher.r-36.net	70
+12017-09-23 14:08  optimize binary file transfers: use sendfile(2) s???  Hiltjo Posthuma          	/scm/geomyidae/commit/d8b18c7bfa0d75f38bbceefde217c83813473e5f.gph	gopher.r-36.net	70
+12017-09-23 11:05  don't keep writing on a send failure (for example???  Hiltjo Posthuma          	/scm/geomyidae/commit/1c6dfdef1faabdb80161e5490526491e2a02c28c.gph	gopher.r-36.net	70
+12017-09-23 11:05  show error/warning on fork failure                  Hiltjo Posthuma          	/scm/geomyidae/commit/60e5e4b10104014295dd9c9867900f4c72a8cffe.gph	gopher.r-36.net	70
+12017-08-29 12:54  Add some index.bin file to send raw gopher maps m???  Christoph Lohmann        	/scm/geomyidae/commit/50fd214b77643c6291a45132706cab4bfba6db7e.gph	gopher.r-36.net	70
+12017-08-09 18:08  arg.h does not change argv anymore, so the pexp w???  Hiltjo Posthuma          	/scm/geomyidae/commit/b2c30971d4c39079644f859f29882d0b196a9137.gph	gopher.r-36.net	70
+12017-08-09 18:06  don't modify argv, use a counter                    Hiltjo Posthuma          	/scm/geomyidae/commit/43c38bfe30bbab0d8be207859f773e49d283053a.gph	gopher.r-36.net	70
+12017-08-07 06:55  Change version number for new release.              Christoph Lohmann        	/scm/geomyidae/commit/8c3240e00e39e5a56605b97553b0a14ad0eae2dd.gph	gopher.r-36.net	70
+12017-08-07 06:54  Bump the year.                                      Christoph Lohmann        	/scm/geomyidae/commit/da7debecdf8cc1f05d3d0408b459b229cb9ef702.gph	gopher.r-36.net	70
+12017-07-10 18:23  use strcmp (without length) for NUL terminated st???  Hiltjo Posthuma          	/scm/geomyidae/commit/9ae1515e88c21de6e69311895af71e92e20f33c7.gph	gopher.r-36.net	70
+12017-07-10 18:22  remove some trailing spaces and empty lines, simp???  Hiltjo Posthuma          	/scm/geomyidae/commit/efc6bf445a594d555bfce6dd4487366f8dbb747e.gph	gopher.r-36.net	70
+12017-07-10 16:22  Makefile: fix make clean and remove some trailing???  Hiltjo Posthuma          	/scm/geomyidae/commit/2b16b2e26bbc12ae4bf6d9637fadd5c93db1a4b9.gph	gopher.r-36.net	70
+12017-07-09 17:07  Add missing -c flag in usage                        Quentin Rameau           	/scm/geomyidae/commit/8b5fbe755e07ade7f689d6ecf2f7b6d39a5a800f.gph	gopher.r-36.net	70
+12017-07-09 17:59  Use an absolute base path for execl.                Quentin Rameau           	/scm/geomyidae/commit/446537b44a1d6920611306a53d5e2b55cd012216.gph	gopher.r-36.net	70
+12017-07-09 18:09  fix off-by-one in handlerequest() for index files???  Hiltjo Posthuma          	/scm/geomyidae/commit/b4c65d77c916d3b13ab4a1239cfb8b60d042ce6d.gph	gopher.r-36.net	70
+12017-07-09 17:15  CGI: small typo fixes                               Hiltjo Posthuma          	/scm/geomyidae/commit/4c38a3cd677ac4ba3b61cac341ef1608508fc8d9.gph	gopher.r-36.net	70
+12017-06-30 20:03  improve OpenBSD rc.d file                           Hiltjo Posthuma          	/scm/geomyidae/commit/5bc940815d5e3cc95115aec8aafc4cc71ef4dda7.gph	gopher.r-36.net	70
+12017-07-01 11:01  Fix documentation about TCP log level in README     Quentin Rameau           	/scm/geomyidae/commit/2eaf0470ac6e7ab222d1bef795cc4dac954a0a28.gph	gopher.r-36.net	70
+12017-06-30 13:12  remove securepath, simply reject relative paths: ???  Hiltjo Posthuma          	/scm/geomyidae/commit/4028ae9814ff6ca97632004c67557e04ce639df3.gph	gopher.r-36.net	70
+12017-06-30 13:12  add flag -c: chroot(2) support                      Hiltjo Posthuma          	/scm/geomyidae/commit/3ed956cf71a15015b443dd7ab36299c242acd1af.gph	gopher.r-36.net	70
+12017-02-16 19:02  default more file extensions to type 0              Pete Deas                	/scm/geomyidae/commit/405a6206fe77dbdfd2be75960658fc383d7ad808.gph	gopher.r-36.net	70
+12017-06-25 19:36  handledcgi: fclose allocated fdopen() FILE *        Hiltjo Posthuma          	/scm/geomyidae/commit/ddfe9f75756640b266be9e1bf80ce9581a405b6d.gph	gopher.r-36.net	70
+12017-06-25 18:56  handledcgi: show error message if execl fails       Hiltjo Posthuma          	/scm/geomyidae/commit/e48154791b3387b70536b62166fe8841df1b918f.gph	gopher.r-36.net	70
+12017-06-25 18:55  handlecgi: show function which failed               Hiltjo Posthuma          	/scm/geomyidae/commit/522c74dba4eb1ba5895fc39c8e9b1e13ef81e283.gph	gopher.r-36.net	70
+12017-06-25 18:54  typo: "and TCP protocol" to "a TCP port"            Hiltjo Posthuma          	/scm/geomyidae/commit/94d509cb11422f3bcf4c09c009370f0e5acfb91b.gph	gopher.r-36.net	70
+12017-06-25 18:53  improve dcgi support                                Hiltjo Posthuma          	/scm/geomyidae/commit/6136de9a50186b811bb80acba917e6f6ea4cfe13.gph	gopher.r-36.net	70
+12017-06-16 16:21  remove some redundant checks                        Hiltjo Posthuma          	/scm/geomyidae/commit/3717798485ae28c453c83a109d17e66188d8379d.gph	gopher.r-36.net	70
+12017-06-16 16:07  Improve tcp connexion logging                       Quentin Rameau           	/scm/geomyidae/commit/42ed4146e6040a362e67369d862daabff0a01f4b.gph	gopher.r-36.net	70
+12017-06-15 17:34  Fix default log level in the manpage                Quentin Rameau           	/scm/geomyidae/commit/eaa890e1ff66d546a86e66dda6ea5c71a239a2df.gph	gopher.r-36.net	70
+12017-06-15 17:21  Add tcp connection logging                          Quentin Rameau           	/scm/geomyidae/commit/baafaf38935f949caf81db281fc17bbeb9bbbe6c.gph	gopher.r-36.net	70
+12017-06-14 20:54  Save geomyidae from invalid gph files.              Christoph Lohmann        	/scm/geomyidae/commit/aef0076447d9ca07b4e758287f611e6cbbda224e.gph	gopher.r-36.net	70
+12017-06-14 16:20  add -4 and -6 IPV4 and IPV6 options to usage aswe???  Hiltjo Posthuma          	/scm/geomyidae/commit/387ac8be93c952305d9ef77e95ca21852cd47f4a.gph	gopher.r-36.net	70
+12017-06-03 17:37  Fix OpenBSD rc.d: geomyidae doesn't support reload  Quentin Rameau           	/scm/geomyidae/commit/2418b3799cc6a7f5122fe6a73d386c635a7591ae.gph	gopher.r-36.net	70
+12017-06-11 18:00  scanfile(): reuse line-buffer                       Hiltjo Posthuma          	/scm/geomyidae/commit/925572f3afedf7a80e13edd1233cc04c1a4a60f0.gph	gopher.r-36.net	70
+12017-06-11 17:51  use calloc instead of gmallocz                      Hiltjo Posthuma          	/scm/geomyidae/commit/2361134beb5458adbff043ea611884a090d56d42.gph	gopher.r-36.net	70
+12017-06-11 17:49  arg.h: fixed argv checks order                      Hiltjo Posthuma          	/scm/geomyidae/commit/b002d13b34f69f0efc797b252f9db0878262581d.gph	gopher.r-36.net	70
+12017-06-11 17:27  tprintf is now dprintf, which is in libc.           Christoph Lohmann        	/scm/geomyidae/commit/d22ff2f488be69cd455837b5dfdff0aad1aea812.gph	gopher.r-36.net	70
+12017-06-11 17:24  Use vdprintf() instead of the dup dup.              Christoph Lohmann        	/scm/geomyidae/commit/93c55f39d5bd322b6dc9bf13fb2025264dc52341.gph	gopher.r-36.net	70
+12017-06-10 13:49  improvements:                                       Hiltjo Posthuma          	/scm/geomyidae/commit/c98811c741255305b3fbff36a7b06bfb263d3ebc.gph	gopher.r-36.net	70
+12017-01-04 21:09  Add better error description in case a file could???  Christoph Lohmann        	/scm/geomyidae/commit/9a2203506973a803e74ffa80a27f2bf1919b68cc.gph	gopher.r-36.net	70
+12017-01-04 20:54  Fixing some dir handling. A path does not need to???  Christoph Lohmann        	/scm/geomyidae/commit/7b14b6e74778cf0ddb328cf3e049a302be614b36.gph	gopher.r-36.net	70
+12016-12-11 10:59  Add all dependency for install in the makefile.     Christoph Lohmann        	/scm/geomyidae/commit/5be8d044ed4e832c4c6a6b7f748b81a30695dc39.gph	gopher.r-36.net	70
+12016-11-26 22:00  Add index.dcgi and index.cgi support to the manpa???  Christoph Lohmann        	/scm/geomyidae/commit/caf9c171245863b0c7f803d9f817742abd61f1eb.gph	gopher.r-36.net	70
+12016-11-26 21:54  Adding support for index.cgi and index.dcgi.        Christoph Lohmann        	/scm/geomyidae/commit/244ea008836ed16030d843c157877c4aa8e71a08.gph	gopher.r-36.net	70
+12016-11-25 15:05  Update the gentoo init scripts to openrc-run and ???  Christoph Lohmann        	/scm/geomyidae/commit/f4302a23294447764096dbe4ad39bcd67dfe53b6.gph	gopher.r-36.net	70
+12016-11-24 21:30  Don't write to stdin.                               Christoph Lohmann        	/scm/geomyidae/commit/8cf862822a3138e0e80e24af198d5a0bab6a8989.gph	gopher.r-36.net	70
+12016-11-24 21:27  Clarify the ??arguments?? argument to [d]cgi script???  Christoph Lohmann        	/scm/geomyidae/commit/59985412850ecb1837a7518b7de08ed790c06e03.gph	gopher.r-36.net	70
+12016-11-24 21:18  If run in foreground, imply standard output as lo???  Christoph Lohmann        	/scm/geomyidae/commit/621a10e4ba30b33ef351d52ac5ff37b55458d96b.gph	gopher.r-36.net	70
+12015-10-24 17:15  In the case the dir of the CGI is not accessible,???  Christoph Lohmann        	/scm/geomyidae/commit/d3b90fd7b38feae19f7e6192cd15051abfed45d7.gph	gopher.r-36.net	70
+12015-10-24 16:58  Makefile: fix gmakeism(?)                           Hiltjo Posthuma          	/scm/geomyidae/commit/267cfbdc5afa6145475f5017555f05142c3aaefb.gph	gopher.r-36.net	70
+12015-10-24 16:57  handlr: args is not used, suppress warning          Hiltjo Posthuma          	/scm/geomyidae/commit/38fbc5e6f24914eb7f76ee9ea9c06b4ffd6a64ca.gph	gopher.r-36.net	70
+12015-10-24 16:57  geomyidae.8: remove unneeded paragraph macro        Hiltjo Posthuma          	/scm/geomyidae/commit/1901d9ec87e4a4d9fe4caf5196011f9a8d1674e1.gph	gopher.r-36.net	70
+12015-09-18 17:08  Force the sending of bytes.                         Christoph Lohmann        	/scm/geomyidae/commit/953a8272e76a2a224155d2b3f23c1018eec6c501.gph	gopher.r-36.net	70
+12015-06-22 20:47  Apply a manpage change from OpenBSD.                Christoph Lohmann        	/scm/geomyidae/commit/0fd85c6a6fb9acd564e77ae4824d9870d6a0b1c4.gph	gopher.r-36.net	70
+12015-06-21 08:08  Add OpenBSD rc.d file.                              Christoph Lohmann        	/scm/geomyidae/commit/feb461b2232b9b250fa0baebb816f75afa15592e.gph	gopher.r-36.net	70
+12014-08-16 14:26  Oops, correcting the last change.                   Christoph Lohmann        	/scm/geomyidae/commit/c4dbfb7ae577eafbb717a9cf9fea7eeb9cd40a1e.gph	gopher.r-36.net	70
+12014-08-16 14:25  Changing the default man path.                      Christoph Lohmann        	/scm/geomyidae/commit/c621504ace8d627d861d28207fa0ad1dae052c66.gph	gopher.r-36.net	70
+12013-04-13 19:28  Removing the debugging.                             Christoph Lohmann        	/scm/geomyidae/commit/6bd70799dd4b251643bedbc005f7913927524f8c.gph	gopher.r-36.net	70
+12013-04-13 19:26  Pushing up to 0.26.3.                               Christoph Lohmann        	/scm/geomyidae/commit/c348e5bce9d3bdb4dd064b36feceb5b4dec3f252.gph	gopher.r-36.net	70
+12013-04-13 19:25  Adding the IPv6 to the manpage.                     Christoph Lohmann        	/scm/geomyidae/commit/30a8aaeeec4fda1bcee8fb9419bb0a924241fd67.gph	gopher.r-36.net	70
+12013-04-13 19:04  Adding IPv6 support.                                Christoph Lohmann        	/scm/geomyidae/commit/0989e87037363bc4977b23da4304c51284026a14.gph	gopher.r-36.net	70
+12013-03-23 23:02  Pushing Geomyidae 0.26.2.                           Christoph Lohmann        	/scm/geomyidae/commit/2878cc2d95ecac6eef2c33c8cd79a126dc9aa7f0.gph	gopher.r-36.net	70
+12013-02-26 17:49  Adding a new mandoc manpage and NetBSD rc.d.        Christoph Lohmann        	/scm/geomyidae/commit/a417296299b8fd5073a1fd237562d08ad6ff6100.gph	gopher.r-36.net	70
+12012-07-22 05:30  Updating the manpage in BUGS and the default type.  Christoph Lohmann        	/scm/geomyidae/commit/c61be869c93eb515c12f8b773b153b53c9a9409f.gph	gopher.r-36.net	70
+12012-07-21 19:23  Releasing v0.26.                                    Christoph Lohmann        	/scm/geomyidae/commit/f14cbdd16b35cc806b9cc85b79bf9f44a1999c2c.gph	gopher.r-36.net	70
+12012-07-21 18:58  Fixing the socket handling and add signals to cli???  Christoph Lohmann        	/scm/geomyidae/commit/dde23cfc01e8301d4263976f711f616f156932f7.gph	gopher.r-36.net	70
+12012-05-17 18:10  Default should be binary.                           Christoph Lohmann        	/scm/geomyidae/commit/8e2c7276d2fa5fd44602707bd0621e0a91646bb8.gph	gopher.r-36.net	70
+12012-05-12 07:12  A more liberal input string handling.               Christoph Lohmann        	/scm/geomyidae/commit/15637a95cdfd6cda10f147ad8cfb56ae16a4abea.gph	gopher.r-36.net	70
+12012-04-29 06:24  Optimizing the rc.d.                                Christoph Lohmann        	/scm/geomyidae/commit/b3b6d54e4122244a89b50987b122a135b6b40586.gph	gopher.r-36.net	70
+12012-02-22 19:58  Ignoring SIGPIPE. Thanks Sam Trenholme.             Christoph Lohmann        	/scm/geomyidae/commit/866af53f96a6cc52a99b7103f72a8e31dedaee84.gph	gopher.r-36.net	70
+12011-12-12 20:17  Respecting a set CC. Thanks to an anonymous dev.    Christoph Lohmann        	/scm/geomyidae/commit/565abed9574e64b729a25be8704863aa6230ff3c.gph	gopher.r-36.net	70
+12011-11-27 09:20  bzero is deprecated. Now using memset.              Christoph Lohmann        	/scm/geomyidae/commit/d6239545026f3a464d7f76ec0ff9763d8f3b7061.gph	gopher.r-36.net	70
+12011-11-27 09:13  Standardizing on non-standards.                     Christoph Lohmann        	/scm/geomyidae/commit/75b457bc0c3618d07f67b08a3efe498791dd5fee.gph	gopher.r-36.net	70
+12011-11-13 20:55  Making the textfiles RFC conformant.                Christoph Lohmann        	/scm/geomyidae/commit/63de51aa52c69c57370c77d51ab9fc84196b7073.gph	gopher.r-36.net	70
+12011-07-02 11:00  Justifying the manpage.                             Christoph Lohmann        	/scm/geomyidae/commit/5515917b4123b50a3ecce3dc22b85c16908014b9.gph	gopher.r-36.net	70
+12011-06-12 15:36  Adding parameter grouping.                          Christoph Lohmann        	/scm/geomyidae/commit/cf8dcb97a53fa14b89ade9088299ba8c1e8d7dc7.gph	gopher.r-36.net	70
+12011-04-30 10:14  Fixing some packaging problems.                     Christoph Lohmann        	/scm/geomyidae/commit/f7fa209ff3d253fe62813d925468f7fe14ebc507.gph	gopher.r-36.net	70
+12011-04-24 13:33  Fixing spurious whitespaces.                        Christoph Lohmann        	/scm/geomyidae/commit/14451307eef3a11cbe9f47959da07d254e7c7e70.gph	gopher.r-36.net	70
+12011-04-24 13:14  To self: reuseaddr before bind.                     Christoph Lohmann        	/scm/geomyidae/commit/94382cb7360ec1e712df59e883381cee1344dd9a.gph	gopher.r-36.net	70
+12011-04-06 09:52  Clarifying some defaults in the manpage.            Christoph Lohmann        	/scm/geomyidae/commit/d81d0fda6b372f9bd057b5c17e50079509875d94.gph	gopher.r-36.net	70
+12011-04-06 09:43  Fixing a typo in the markup syntax.                 Christoph Lohmann        	/scm/geomyidae/commit/f59eada7f0fcd2efeef8666a032f8047d53cfa1d.gph	gopher.r-36.net	70
+12011-03-27 21:00  Minor log level change in the NetBSD rc.d.          Christoph Lohmann        	/scm/geomyidae/commit/e1f07c808f6f2b2f11d0455d660e649288f74e88.gph	gopher.r-36.net	70
+12011-03-27 20:26  New release. Now a major minor one.                 Christoph Lohmann        	/scm/geomyidae/commit/3d0f1527d2941c60cf1cb4b8b699152ce705517f.gph	gopher.r-36.net	70
+12011-03-27 20:25  Merge branch 'master' of ssh://r-36.net/srv/git/g???  Christoph Lohmann        	/scm/geomyidae/commit/70f62c4a95799dd02259f41f5c7890052699f9f7.gph	gopher.r-36.net	70
+12011-03-27 20:24  Thanks to Jeff W for the new manpage!               Christoph Lohmann        	/scm/geomyidae/commit/a59102fbee661d642dceda1cf561f036b54ea65e.gph	gopher.r-36.net	70
+12011-03-16 05:26  Trying to fix the base path.                        Christoph Lohmann        	/scm/geomyidae/commit/bb858e05c4c1e15bd54b5bcb37ebac0f9356af47.gph	gopher.r-36.net	70
+12011-03-16 04:56  Small correction.                                   Christoph Lohmann        	/scm/geomyidae/commit/708d5eec1eaa6e7b3189515adcc353ff4058d592.gph	gopher.r-36.net	70
+12011-03-16 04:11  Clarifying some CGI stuff.                          Christoph Lohmann        	/scm/geomyidae/commit/6dd2752f4e89d9d8e5f5a9608b66a35b81dbc2b4.gph	gopher.r-36.net	70
+12011-03-12 20:00  Adding CGI documentation.                           Christoph Lohmann        	/scm/geomyidae/commit/7114924898ed83d3a4eb3f0a59f9047ed3877ba4.gph	gopher.r-36.net	70
+12011-03-12 19:19  Adding dynamic CGI support.                         Christoph Lohmann        	/scm/geomyidae/commit/6f4cbad45b4f91422cc14d1b843c754b234ffffe.gph	gopher.r-36.net	70
+12011-03-11 22:53  Removing unneeded string.                           Christoph Lohmann        	/scm/geomyidae/commit/72fa3a9a1750ffa0b5fc2f4fb33f7daafe57a368.gph	gopher.r-36.net	70
+12011-03-08 13:09  Vanishing the last SO_REUSEADDR traces.             Christoph Lohmann        	/scm/geomyidae/commit/136e096d34f8f7751e8b9d0f10c0c51c223f4894.gph	gopher.r-36.net	70
+12011-03-08 13:08  Adding proper socket handling. We don't need REUS???  Christoph Lohmann        	/scm/geomyidae/commit/0e66ab01eb5b38b5013f75d22e4ca0779c8d45a0.gph	gopher.r-36.net	70
+12011-03-08 13:08  Adding nicer error messages.                        Christoph Lohmann        	/scm/geomyidae/commit/63cd2d298843b1f144252f1902a7e1890000e1d7.gph	gopher.r-36.net	70
+12011-03-07 21:15  Now the make system looks a bit nicer.              Christoph Lohmann        	/scm/geomyidae/commit/f2c2634b2cdd5ebb5dfc87dbc345f416a5fa7a41.gph	gopher.r-36.net	70
+12011-03-07 21:01  Running scripts should now exit as expected.        Christoph Lohmann        	/scm/geomyidae/commit/9556d3960086cdf6365a612823915fd6a9906bac.gph	gopher.r-36.net	70
+12011-03-07 15:58  Merge branch 'master' of /home/chrissi/scm/../git???  Christoph Lohmann        	/scm/geomyidae/commit/0bbe73dae350eaa6ae6cf712d91b90c9ae760c53.gph	gopher.r-36.net	70
+12011-03-07 15:57  Telnet needs a third argument. Thanks to Jeff.      Christoph Lohmann        	/scm/geomyidae/commit/3a67bf3e51e1f014225e14ddab9331520ba50950.gph	gopher.r-36.net	70
+12011-03-06 09:48  Fixing various major bugs.                          Christoph Lohmann        	/scm/geomyidae/commit/451a9fae7303cc2457d025d51c6c153413020211.gph	gopher.r-36.net	70
+12011-03-03 08:36  It was only a minor fix. 0.17 still.                Christoph Lohmann        	/scm/geomyidae/commit/a4c4ddaceafa6d22ee03502b6b4d764c51ba8d49.gph	gopher.r-36.net	70
+12011-03-03 08:10  Changing to v0.18.                                  Christoph Lohmann        	/scm/geomyidae/commit/5443c4aa5d73e05fb6fa85adc82569f4258e8dec.gph	gopher.r-36.net	70
+12011-03-02 15:10  Eroding GCC4 and OpenBSD ideology warnings.         Christoph Lohmann        	/scm/geomyidae/commit/500a99769e8db0b627a376b311c5436367192817.gph	gopher.r-36.net	70
+12011-03-02 14:43  Adding *BSD compatibility.                          Christoph Lohmann        	/scm/geomyidae/commit/afc242d83cb480ecd0ec09f0dd43f3389df73f89.gph	gopher.r-36.net	70
+12011-03-01 05:54  Refurbishing the getaddrinfo stuff and signals.     Christoph Lohmann        	/scm/geomyidae/commit/cd5884a78c51da927a0cbf302989b21a055b770a.gph	gopher.r-36.net	70
+12011-02-28 19:52  Enabling true multiple client request handling.     Christoph Lohmann        	/scm/geomyidae/commit/f470bb28b01e20414e34e074a17447c556884095.gph	gopher.r-36.net	70
+12011-02-28 18:50  Fixing permissions in the repository.               Christoph Lohmann        	/scm/geomyidae/commit/d9f4fcf65858a9e26d03fa9629c785b083714300.gph	gopher.r-36.net	70
+12011-02-27 23:46  A more robust accept() handling.                    Christoph Lohmann        	/scm/geomyidae/commit/8eff8ae493a6f02e1a2b11cf69ac6cc84e4cace5.gph	gopher.r-36.net	70
+12011-02-27 14:18  That return value should only be positive.          Christoph Lohmann        	/scm/geomyidae/commit/b54cf16cabdb38610da974759ce274be20e480f0.gph	gopher.r-36.net	70
+12011-02-27 14:16  Fixing the rc.d example script.                     Christoph Lohmann        	/scm/geomyidae/commit/770d313bfd0e4c3ca2e46e8925be0e4a576a359e.gph	gopher.r-36.net	70
+12011-02-27 11:56  Extending the copyright of James Penketh.           Christoph Lohmann        	/scm/geomyidae/commit/25281fad7fb966c8027f1ddc0161e78efa0b26c7.gph	gopher.r-36.net	70
+12011-02-27 11:55  Forgot the check for reverselookup.                 Christoph Lohmann        	/scm/geomyidae/commit/f030400cc6670be1087473c91b7d5f8b8868d843.gph	gopher.r-36.net	70
+12011-02-27 11:32  Adding reverse lookup to log entries. Thanks to J???  Christoph Lohmann        	/scm/geomyidae/commit/a0495a999191b84a00f2586b7089c99947d0de93.gph	gopher.r-36.net	70
+12011-02-27 09:56  Cleaning up signal handling.                        Christoph Lohmann        	/scm/geomyidae/commit/cb73df5b7e3746edcb70fd57b462161efec5385a.gph	gopher.r-36.net	70
+12011-02-27 09:48  Forgot some whitespaces.                            Christoph Lohmann        	/scm/geomyidae/commit/0fbb73a1590a323d17ac96dad034c608b891e56c.gph	gopher.r-36.net	70
+12011-02-27 09:39  Removing spurious whitespaces.                      Christoph Lohmann        	/scm/geomyidae/commit/64d0e03e59ae7734f8a71ce7899ca3e3f22f701c.gph	gopher.r-36.net	70
+12011-02-26 17:15  Fixing a spurious pid file creation.                Christoph Lohmann        	/scm/geomyidae/commit/edbc6bce3a20468b4c81c700a373fcd73fce1cde.gph	gopher.r-36.net	70
+12011-02-22 08:41  Updating the LICENSE for 2011 and first test comm???  Christoph Lohmann        	/scm/geomyidae/commit/964dd5f59cdd05269a9f84f3b960791577758595.gph	gopher.r-36.net	70
+12010-11-19 08:20  Initial commit at 0.16 of geomyidae.                Christoph Lohmann        	/scm/geomyidae/commit/97230aa165bee0bffae624707ff98d6098da1823.gph	gopher.r-36.net	70
+i	Err	gopher.r-36.net	70
+0Atom feed	/scm/geomyidae/atom.xml	gopher.r-36.net	70
+.

@@ -1,0 +1,30 @@
+1Floodgap Systems gopher root	/	gopher.floodgap.com	70
+i 		error.host	1
+i"All the gopher servers (that we know of)"		error.host	1
+i 		error.host	1
+iAs the Veronica-2 robot patrols Gopherspace, it logs		error.host	1
+iall the gopher servers it encounters here, along with		error.host	1
+istatistics on how many selectors it has found at that		error.host	1
+iserver so far.		error.host	1
+i 		error.host	1
+iThis data is extracted directly off V-2's MySQL database,		error.host	1
+iso it is constantly up-to-date with the robot's progress.		error.host	1
+i 		error.host	1
+iSend questions to gopher@floodgap.com.		error.host	1
+i 		error.host	1
+1"Greatest hits": most recently verified gopher servers	/world/last-hit	gopher.floodgap.com	70
+i(most recently verified sites, new and old)		error.host	1
+1New Gopher servers since 1999	/new	gopher.floodgap.com	70
+iNewest gopher servers (some are pending addition to		error.host	1
+ithe database)		error.host	1
+i 		error.host	1
+1Search Gopherspace with Veronica-2	/v2	gopher.floodgap.com	70
+i 		error.host	1
+1Top-Level .com, .net, .info, .land, .org	/world/search-hosts?com net info land org	gopher.floodgap.com	70
+1U.S. Academic, Government, Military Servers (.edu, .gov, .mil)	/world/search-hosts?edu gov mil	gopher.floodgap.com	70
+1North America and Caribbean	/world/search-hosts?ca us gp	gopher.floodgap.com	70
+1Central and South America	/world/search-hosts?ar co mx pe br	gopher.floodgap.com	70
+1Europe	/world/search-hosts?at be ch cr cz de dk ee eu fi fr gr hr hu is it lt me nl es no pl pt ro ru se su ua uk	gopher.floodgap.com	70
+1Africa, Australasia, Asia, Pacific Rim	/world/search-hosts?au cn hk in io jp nz pw tk th tm tw cx za	gopher.floodgap.com	70
+1Other TLDs	/world/search-hosts?black club life moe name ninja online productions solutions space technology tips town works zone party engineering	gopher.floodgap.com	70
+.

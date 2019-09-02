@@ -1,0 +1,24 @@
+1Getting started with gopher, software, more	/gopher	gopher.floodgap.com	70
+i 		error.host	1
+iThis is a repository for relevant RFCs and technical		error.host	1
+idocumentation.		error.host	1
+i 		error.host	1
+0RFC 1436 (Gopher)	/gopher/tech/rfc1436.txt	gopher.floodgap.com	70
+iThis is the original RFC written by UMN specifying the gopher		error.host	1
+iprotocol.		error.host	1
+i 		error.host	1
+0Gopher+ "Gopher Plus"	/gopher/tech/gopherplus.txt	gopher.floodgap.com	70
+iThese are UMN's proposed extensions to the Gopher protocol.		error.host	1
+iThey are not part of any RFC.		error.host	1
+i 		error.host	1
+9ASK examples.tar.gz	/gopher/tech/ask.tar.gz	gopher.floodgap.com	70
+iA selection of ASK forms for Gopher+ servers.		error.host	1
+i 		error.host	1
+iAll files:		error.host	1
+i(Symbolic links may cause files to be listed twice.)		error.host	1
+0Gopher+	/gopher/tech/gopherplus.txt	gopher.floodgap.com	70
+0RFC-1436	/gopher/tech/rfc1436.txt	gopher.floodgap.com	70
+9ask.tar.gz	/gopher/tech/ask.tar.gz	gopher.floodgap.com	70
+0gopherplus.txt	/gopher/tech/gopherplus.txt	gopher.floodgap.com	70
+0rfc1436.txt	/gopher/tech/rfc1436.txt	gopher.floodgap.com	70
+.
