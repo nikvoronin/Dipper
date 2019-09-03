@@ -26,6 +26,7 @@ namespace DipperConsole
         // Gopher+
         HtmlFile = 'h',
         InfoMessage = 'i',
-        SoundFile = 's'
+        SoundFile = 's',
+        PngFile = 'p'
     }
 }
