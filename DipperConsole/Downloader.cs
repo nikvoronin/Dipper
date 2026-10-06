@@ -7,9 +7,18 @@ public static class Downloader
 {
     public static async Task<(int, string)> OpenUrlAsync(GopherUri guri)
     {
-        var response = "";
-        var status = -1;
+        var (status, data, error) = await FetchAsync(guri);
 
+        return status == 0
+            ? (status, Encoding.ASCII.GetString(data))
+            : (status, error);
+    }
+
+    /// <summary>
+    /// Downloads the raw bytes of the response. Error is filled when status is not 0.
+    /// </summary>
+    public static async Task<(int Status, byte[] Data, string Error)> FetchAsync(GopherUri guri)
+    {
         using var client = new TcpClient();
 
         try
@@ -19,10 +28,7 @@ public static class Downloader
         }
         catch (Exception ex)
         {
-            response = ex.Message;
-            status = 100;
-
-            return (status, response);
+            return (100, [], ex.Message);
         }
 
         using var stream = client.GetStream();
@@ -40,30 +46,21 @@ public static class Downloader
         }
         catch (Exception ex)
         {
-            response = ex.Message;
-            status = 200;
-
-            return (status, response);
+            return (200, [], ex.Message);
         }
 
         try
         {
             var mem = await ReadResponseAsync(stream);
-            if (mem.Length > 0)
-            {
-                response = Encoding.ASCII.GetString(mem.ToArray());
-                status = 0;
-            }
+
+            return mem.Length > 0
+                ? (0, mem.ToArray(), "")
+                : (-1, [], "");
         }
         catch (Exception ex)
         {
-            response = ex.Message;
-            status = 300;
-
-            return (status, response);
+            return (300, [], ex.Message);
         }
-
-        return (status, response);
     }
 
     private static async Task<MemoryStream> ReadResponseAsync(NetworkStream stream)

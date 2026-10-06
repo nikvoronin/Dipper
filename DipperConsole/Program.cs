@@ -23,6 +23,11 @@ public class Program
                 continue;
             }
 
+            if (ImageRenderer.IsImage(guri.ItemType)) {
+                await ShowImageAsync(guri);
+                continue;
+            }
+
             (int status, string response) = await Downloader.OpenUrlAsync(guri);
 
             if (status == 0) {
@@ -41,4 +46,26 @@ public class Program
             }
         }
     }
+
+    private static async Task ShowImageAsync(GopherUri guri)
+    {
+        var (status, data, error) = await Downloader.FetchAsync(guri);
+
+        if (status != 0) {
+            Console.WriteLine($">>> ERROR {status}!");
+            Console.WriteLine(error);
+            return;
+        }
+
+        try {
+            ImageRenderer.Draw(data);
+        }
+        catch (Exception ex) {
+            Console.ResetColor();
+            Console.WriteLine($">>> ERROR {IMAGE_ERROR_CODE}!");
+            Console.WriteLine(ex.Message);
+        }
+    }
+
+    const int IMAGE_ERROR_CODE = 400;
 }

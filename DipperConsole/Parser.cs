@@ -47,7 +47,7 @@ public sealed class Parser
                     Console.Write($"[IMG] ");
                     Console.ForegroundColor = stdForeColor;
                     Console.ForegroundColor = ConsoleColor.Yellow;
-                    Console.WriteLine($"{tabbed[2]}/0{tabbed[1]}");
+                    Console.WriteLine($"{tabbed[2]}/{line[0]}{tabbed[1]}");
                     Console.ForegroundColor = stdForeColor;
                     break;
 

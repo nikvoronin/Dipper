@@ -19,4 +19,8 @@
     <Copyright>Nikolai Voronin © 2026</Copyright>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="StbImageSharp" Version="2.30.16" />
+  </ItemGroup>
+
 </Project>
