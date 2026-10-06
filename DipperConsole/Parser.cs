@@ -6,7 +6,10 @@ public sealed class Parser
     {
         var lines = raw.Split('\n');
 
-        foreach(var line in lines) {
+        foreach(var rawLine in lines) {
+            // servers may end lines with CRLF, so the terminator is ".\r"
+            var line = rawLine.TrimEnd('\r');
+
             if (line.Length == 0
                 || (line.Length == 1
                     && line[0] == '.'))
@@ -27,7 +30,7 @@ public sealed class Parser
                     Console.ForegroundColor = stdForeColor;
                     Console.Write($"{textLine}\t");
                     Console.ForegroundColor = ConsoleColor.Cyan;
-                    Console.WriteLine($"{tabbed[2]}/0{tabbed[1]}");
+                    Console.WriteLine(ToAddress(tabbed, '0'));
                     Console.ForegroundColor = stdForeColor;
                     break;
 
@@ -36,7 +39,7 @@ public sealed class Parser
                     Console.Write($"[DIR] ");
                     Console.ForegroundColor = stdForeColor;
                     Console.ForegroundColor = ConsoleColor.Cyan;
-                    Console.WriteLine($"{tabbed[2]}/1{tabbed[1]}");
+                    Console.WriteLine(ToAddress(tabbed, '1'));
                     Console.ForegroundColor = stdForeColor;
                     break;
 
@@ -47,7 +50,7 @@ public sealed class Parser
                     Console.Write($"[IMG] ");
                     Console.ForegroundColor = stdForeColor;
                     Console.ForegroundColor = ConsoleColor.Yellow;
-                    Console.WriteLine($"{tabbed[2]}/{line[0]}{tabbed[1]}");
+                    Console.WriteLine(ToAddress(tabbed, line[0]));
                     Console.ForegroundColor = stdForeColor;
                     break;
 
@@ -70,6 +73,22 @@ public sealed class Parser
 
     public static GopherItemType ToGopherItem(int ch) =>
         Enum.IsDefined((GopherItemType)ch)
-            ? (GopherItemType)ch 
+            ? (GopherItemType)ch
             : GopherItemType.None;
+
+    // host[:port]/<type><selector>; the port is omitted when it is the default one
+    private static string ToAddress(string[] tabbed, char type)
+    {
+        var host = tabbed[2];
+        if (tabbed.Length > 3
+            && int.TryParse(tabbed[3].Trim(), out var port)
+            && port != DEFAULT_GOPHER_PORT)
+        {
+            host += $":{port}";
+        }
+
+        return $"{host}/{type}{tabbed[1]}";
+    }
+
+    const int DEFAULT_GOPHER_PORT = 70;
 }
