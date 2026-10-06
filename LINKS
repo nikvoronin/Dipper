@@ -5,6 +5,9 @@ gopher://gopher.floodgap.com/1/world
 Wikipedia
 gopher://gopherpedia.com/1
 
+T H E . A S C I I . A R T . E M P O R I U M
+gopher://ascii.mozz.us:7070/
+
 XKCD
 gopher://gopher.floodgap.com/1/fun/xkcd/
 
@@ -12,7 +15,7 @@ Mgod server
 gopher://port70.net/1mgod
 
 ZZO38COMPUTER Gopher Server
-gopher://zzo38computer.org
+~~gopher://zzo38computer.org
 
 geomyidae server
 gopher://gopher.r-36.net/1/scm/geomyidae
@@ -25,9 +28,9 @@ gopher://gopher.floodgap.com/gopher/tech/gopherplus.txt
 
 RUSSIAN
 =======
-gopher://gopher.ankylym.ru
-gopher://gopher.rp.spb.su/client.txt
-gopher://gopher.rp.spb.su/cyrillic.txt
+~~gopher://gopher.ankylym.ru~~
+~~gopher://gopher.rp.spb.su/client.txt
+~~gopher://gopher.rp.spb.su/cyrillic.txt
 
 SOURCES
 =======
