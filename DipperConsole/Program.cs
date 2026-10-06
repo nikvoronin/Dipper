@@ -7,7 +7,8 @@ public class Program
         Console.WriteLine("Dipper. The sharp# Gopher browser.");
 
         var run = true;
-        while(run) {
+        while (run)
+        {
             Console.Write("> ");
             var address = Console.ReadLine();
             if (string.IsNullOrWhiteSpace(address))
@@ -15,22 +16,26 @@ public class Program
 
             GopherUri guri;
 
-            try {
+            try
+            {
                 guri = GopherUri.Parse(address);
             }
-            catch {
+            catch
+            {
                 Console.WriteLine(">>> ERROR! Wrong URL!");
                 continue;
             }
 
-            if (ImageRenderer.IsImage(guri.ItemType)) {
+            if (ImageRenderer.IsImage(guri.ItemType))
+            {
                 await ShowImageAsync(guri);
                 continue;
             }
 
             (int status, string response) = await Downloader.OpenUrlAsync(guri);
 
-            if (status == 0) {
+            if (status == 0)
+            {
 #if DEBUG 
                 string logFilename = $"log-{guri.Host}-{Environment.TickCount}.txt";
                 File.WriteAllText(logFilename, response);
@@ -40,7 +45,8 @@ public class Program
                 else
                     Console.WriteLine(response);
             }
-            else {
+            else
+            {
                 Console.WriteLine($">>> ERROR {status}!");
                 Console.WriteLine(response);
             }
@@ -51,16 +57,19 @@ public class Program
     {
         var (status, data, error) = await Downloader.FetchAsync(guri);
 
-        if (status != 0) {
+        if (status != 0)
+        {
             Console.WriteLine($">>> ERROR {status}!");
             Console.WriteLine(error);
             return;
         }
 
-        try {
+        try
+        {
             ImageRenderer.Draw(data);
         }
-        catch (Exception ex) {
+        catch (Exception ex)
+        {
             Console.ResetColor();
             Console.WriteLine($">>> ERROR {IMAGE_ERROR_CODE}!");
             Console.WriteLine(ex.Message);

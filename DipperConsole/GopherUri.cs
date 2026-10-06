@@ -19,22 +19,26 @@ public sealed class GopherUri
         var uri = new Uri(raw);
         guri.uri = uri;
 
-        if (guri.uri.Segments.Length < 2) {
+        if (guri.uri.Segments.Length < 2)
+        {
             guri.Path = uri.AbsolutePath;
             guri.ItemType = GopherItemType.SubmenuDir;
         }
-        else {
+        else
+        {
             int gtype = uri.Segments[1][0];
-            if (Enum.IsDefined((GopherItemType)gtype)) {
+            if (Enum.IsDefined((GopherItemType)gtype))
+            {
                 guri.ItemType = (GopherItemType)gtype;
 
                 string pathBody = string.Join("", guri.uri.Segments, 2, guri.uri.Segments.Length - 2);
                 if (uri.Segments[1].Length > 2)
-                    guri.Path = $"/{uri.Segments[1].Substring(1)}/{pathBody}";
+                    guri.Path = $"/{uri.Segments[1][1..]}/{pathBody}";
                 else
                     guri.Path = $"/{pathBody}";
             }
-            else {
+            else
+            {
                 guri.Path = uri.AbsolutePath;
                 guri.ItemType = GopherItemType.SubmenuDir;
             }

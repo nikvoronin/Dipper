@@ -15,7 +15,8 @@ static class ImageRenderer
 
     public static void Draw(byte[] data)
     {
-        var options = new PicToAsciiOptions {
+        var options = new PicToAsciiOptions
+        {
             FixedDimension = PicToAsciiOptions.Fix.Horizontal,
             FixedSize = ConsoleWidth(),
             SymbolAspectRatio = FONT_ASPECT
@@ -27,7 +28,8 @@ static class ImageRenderer
         using var stream = new MemoryStream(data);
         var tapes = new PicToAscii(options).Convert(stream);
 
-        foreach (var tape in tapes) {
+        foreach (var tape in tapes)
+        {
             Console.ForegroundColor = tape.ForeColor;
             Console.Write(tape.Chunk);
         }
@@ -40,10 +42,12 @@ static class ImageRenderer
         if (Console.IsOutputRedirected)
             return DEFAULT_CONSOLE_W;
 
-        try {
+        try
+        {
             return Math.Max(1, Console.WindowWidth - 1);
         }
-        catch (IOException) {
+        catch (IOException)
+        {
             return DEFAULT_CONSOLE_W;
         }
     }

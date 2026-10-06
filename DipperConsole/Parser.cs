@@ -6,7 +6,8 @@ public sealed class Parser
     {
         var lines = raw.Split('\n');
 
-        foreach(var rawLine in lines) {
+        foreach (var rawLine in lines)
+        {
             // servers may end lines with CRLF, so the terminator is ".\r"
             var line = rawLine.TrimEnd('\r');
 
@@ -20,10 +21,11 @@ public sealed class Parser
             var t = ToGopherItem(line[0]);
 
             var tabbed = line.Split('\t');
-            var textLine = tabbed[0].Substring(1);
+            var textLine = tabbed[0][1..];
 
             var stdForeColor = Console.ForegroundColor;
-            switch (t) {
+            switch (t)
+            {
                 case GopherItemType.TextDocument:
                     Console.ForegroundColor = ConsoleColor.DarkGray;
                     Console.Write($"[DOC] ");
